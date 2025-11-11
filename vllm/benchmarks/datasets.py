@@ -82,7 +82,7 @@ class SampleRequest:
     multi_modal_data: MultiModalDataDict | dict | list[dict] | None = None
     lora_request: LoRARequest | None = None
     request_id: str | None = None
-    priority: int = 0
+    priority: float = 0.0
 
 
 # -----------------------------------------------------------------------------
@@ -1997,7 +1997,7 @@ class CustomDataset(BenchmarkDataset):
             if len(sampled_requests) >= num_requests:
                 break
             prompt = item["prompt"]
-            priority = item.get("priority", 0)
+            priority = item.get("priority", 0.0)
 
             # apply template
             if not skip_chat_template:

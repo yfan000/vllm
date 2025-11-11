@@ -77,7 +77,7 @@ class RequestFuncInput:
     ignore_eos: bool = False
     language: str | None = None
     request_id: str | None = None
-    priority: int = 0
+    priority: float = 0.0
 
 
 @dataclass
