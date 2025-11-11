@@ -82,6 +82,7 @@ class SampleRequest:
     multi_modal_data: MultiModalDataDict | dict | list[dict] | None = None
     lora_request: LoRARequest | None = None
     request_id: str | None = None
+    priority: int = 0
 
 
 # -----------------------------------------------------------------------------
@@ -1996,6 +1997,7 @@ class CustomDataset(BenchmarkDataset):
             if len(sampled_requests) >= num_requests:
                 break
             prompt = item["prompt"]
+            priority = item.get("priority", 0)
 
             # apply template
             if not skip_chat_template:
@@ -2012,6 +2014,7 @@ class CustomDataset(BenchmarkDataset):
                     prompt_len=prompt_len,
                     expected_output_len=output_len,
                     request_id=request_id_prefix + str(i),
+                    priority=priority,
                 )
             )
         self.maybe_oversample_requests(
