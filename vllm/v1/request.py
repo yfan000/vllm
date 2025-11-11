@@ -41,7 +41,7 @@ class Request:
         mm_features: list[MultiModalFeatureSpec] | None = None,
         lora_request: Optional["LoRARequest"] = None,
         cache_salt: str | None = None,
-        priority: float = 0.0,
+        priority: int = 0,
         trace_headers: Mapping[str, str] | None = None,
         block_hasher: Callable[["Request"], list["BlockHash"]] | None = None,
     ) -> None:
