@@ -65,6 +65,13 @@ class Scheduler(SchedulerInterface):
         self.structured_output_manager = structured_output_manager
         self.is_encoder_decoder = vllm_config.model_config.is_encoder_decoder
 
+        self.total_scheduled_requests = 1
+        self.total_scheduled_size = 100
+        self.reading_speed = 300.0/60.0
+        self.preemption_length_threshold = 500
+        self.preemption_back_to_running_threshold = 100
+        self.ahead_tokens = 500
+
         # include_finished_set controls whether a separate set of finished
         # request ids should be included in the EngineCoreOutputs returned
         # by update_from_outputs(). This is currently used in the multi-engine
@@ -204,6 +211,17 @@ class Scheduler(SchedulerInterface):
         # For logging.
         scheduled_timestamp = time.monotonic()
 
+        time_stamp = time.time()
+        if self.policy == SchedulingPolicy.PRIORITY:
+            for req in self.running:
+                if req.num_output_tokens == 0: # prefill request
+                    req.priority = float('-inf')+1
+                else: # decode request
+                    req.priority = float('-inf')
+                    if (req.num_output_tokens-req.output_token_len_before_preemption) > self.preemption_length_threshold: # if the decode request could be preempted
+                        if req.num_output_tokens-(time_stamp-req.decoding_time)*self.reading_speed > self.ahead_tokens: # faster than reading speed
+                            req.priority = req.original_priority
+
         # First, schedule the RUNNING requests.
         req_index = 0
         while req_index < len(self.running) and token_budget > 0:
@@ -301,7 +319,8 @@ class Scheduler(SchedulerInterface):
                             EngineCoreEventType.PREEMPTED, scheduled_timestamp
                         )
 
-                    self.waiting.prepend_request(preempted_req)
+                    # self.waiting.prepend_request(preempted_req)
+                    preempted_req.output_token_len_before_preemption = preempted_req.num_output_tokens
                     preempted_reqs.append(preempted_req)
                     if preempted_req == request:
                         # No more request to preempt. Cannot schedule this request.
@@ -357,8 +376,23 @@ class Scheduler(SchedulerInterface):
         # skipped and put back at the head of the waiting queue later
         skipped_waiting_requests = create_request_queue(self.policy)
 
+        if self.policy == SchedulingPolicy.PRIORITY:
+            for req in self.waiting:
+                if req.original_priority > self.preemption_length_threshold:
+                    if req.num_output_tokens == 0: # not been scheduled yet
+                        if req.priority > self.preemption_length_threshold:
+                            avg_size = self.total_scheduled_size / self.total_scheduled_requests
+                            req.priority = int(avg_size)
+                    else: # preempted before
+                        if req.num_output_tokens-(time_stamp-req.decoding_time)*self.reading_speed < self.preemption_back_to_running_threshold: # approaching reading speed
+                            req.priority = float('-inf')
+                        else:
+                            req.priority = req.original_priority * 100000 # could still waiting in the queue
+            self.waiting.order_requests()
+
         # Next, schedule the WAITING requests.
         if not preempted_reqs:
+            chosen_requests = []
             while self.waiting and token_budget > 0:
                 if len(self.running) == self.max_num_running_reqs:
                     break
@@ -511,15 +545,107 @@ class Scheduler(SchedulerInterface):
                 else:
                     num_encoder_tokens = 0
 
-                new_blocks = self.kv_cache_manager.allocate_slots(
-                    request,
-                    num_new_tokens + num_external_computed_tokens,
-                    num_new_local_computed_tokens,
-                    new_computed_blocks,
-                    num_lookahead_tokens=effective_lookahead_tokens,
-                    delay_cache_blocks=load_kv_async,
-                    num_encoder_tokens=num_encoder_tokens,
-                )
+                if self.policy == SchedulingPolicy.FCFS:
+                    new_blocks = self.kv_cache_manager.allocate_slots(
+                        request,
+                        num_new_tokens + num_external_computed_tokens,
+                        num_new_local_computed_tokens,
+                        new_computed_blocks,
+                        num_lookahead_tokens=effective_lookahead_tokens,
+                        delay_cache_blocks=load_kv_async,
+                        num_encoder_tokens=num_encoder_tokens,
+                    )
+                else:
+                    '''
+                    break
+                    '''
+                    if len(self.running) >= self.max_num_running_reqs:
+                        preempted_req = max(
+                            self.running,
+                            key=lambda r: (r.priority, r.arrival_time),
+                        )
+                        if preempted_req.priority <= request.priority:
+                            # No more request to preempt. Cannot schedule this request.
+                            break
+                        if preempted_req in chosen_requests:
+                            break
+                        self.running.remove(preempted_req)
+                        if preempted_req in scheduled_running_reqs:
+                            scheduled_running_reqs.remove(preempted_req)
+                            token_budget += num_scheduled_tokens[preempted_req.request_id]
+                            req_to_new_blocks.pop(preempted_req.request_id)
+                            num_scheduled_tokens.pop(preempted_req.request_id)
+
+                        self.kv_cache_manager.free(preempted_req)
+                        self.encoder_cache_manager.free(preempted_req)
+                        preempted_req.status = RequestStatus.PREEMPTED
+                        preempted_req.num_computed_tokens = 0
+                        preempted_req.num_preemptions += 1
+                        if self.log_stats:
+                            preempted_req.record_event(
+                                EngineCoreEventType.PREEMPTED, scheduled_timestamp
+                            )
+                        # change
+                        # self.waiting.prepend_request(preempted_req)
+                        preempted_req.output_token_len_before_preemption = preempted_req.num_output_tokens
+                        #
+                        preempted_reqs.append(preempted_req)
+                        #break
+                        
+                    #else:
+                    ###
+                    # Schedule newly needed KV blocks for the request.
+                    while True:
+                        if len(self.running) >= self.max_num_running_reqs:
+                            break
+                        new_blocks = self.kv_cache_manager.allocate_slots(
+                            request,
+                            num_new_tokens + num_external_computed_tokens,
+                            num_new_local_computed_tokens,
+                            new_computed_blocks,
+                            num_lookahead_tokens=effective_lookahead_tokens,
+                            delay_cache_blocks=load_kv_async,
+                            num_encoder_tokens=num_encoder_tokens,
+                        )
+
+                        if (new_blocks is not None):
+                            # The request can be scheduled.
+                            break
+
+                        # The request cannot be scheduled.
+                        # Preempt the lowest-priority request.
+                        if len(self.running) == 0:
+                                break
+                        preempted_req = max(
+                            self.running,
+                            key=lambda r: (r.priority, r.arrival_time),
+                        )
+                        if preempted_req.priority <= request.priority:
+                            # No more request to preempt. Cannot schedule this request.
+                            break
+                        if preempted_req in chosen_requests:
+                            break
+                        self.running.remove(preempted_req)
+                        if preempted_req in scheduled_running_reqs:
+                            scheduled_running_reqs.remove(preempted_req)
+                            token_budget += num_scheduled_tokens[preempted_req.request_id]
+                            req_to_new_blocks.pop(preempted_req.request_id)
+                            num_scheduled_tokens.pop(preempted_req.request_id)
+
+                        self.kv_cache_manager.free(preempted_req)
+                        self.encoder_cache_manager.free(preempted_req)
+                        preempted_req.status = RequestStatus.PREEMPTED
+                        preempted_req.num_computed_tokens = 0
+                        preempted_req.num_preemptions += 1
+                        if self.log_stats:
+                            preempted_req.record_event(
+                                EngineCoreEventType.PREEMPTED, scheduled_timestamp
+                            )
+                        # change
+                        # self.waiting.prepend_request(preempted_req)
+                        preempted_req.output_token_len_before_preemption = preempted_req.num_output_tokens
+                        #
+                        preempted_reqs.append(preempted_req)
 
                 if new_blocks is None:
                     # The request cannot be scheduled.
@@ -1171,6 +1297,12 @@ class Scheduler(SchedulerInterface):
         return len(self.running), len(self.waiting)
 
     def add_request(self, request: Request) -> None:
+        if request.priority > self.preemption_length_threshold:
+            avg_size = self.total_scheduled_size / self.total_scheduled_requests
+            request.priority = int(avg_size)
+        else:
+            self.total_scheduled_requests += 1
+            self.total_scheduled_size += request.original_priority
         self.waiting.add_request(request)
         self.requests[request.request_id] = request
         if self.log_stats:
