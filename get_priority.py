@@ -2,9 +2,12 @@ import requests
 import json
 
 url = "http://127.0.0.1:8888/score"
-input_file = "alpaca_requests_1000.jsonl"
-output_file = "alpaca_requests_1000_priority.jsonl"
-
+#input_file = "alpaca_requests_1000.jsonl"
+#output_file = "alpaca_requests_1000_priority.jsonl"
+#input_file = "longcot_fcfs_1000.jsonl"
+#output_file = "longcot_1000_priority.jsonl"
+input_file = "longwriter_fcfs.jsonl"
+output_file = "longwriter_1000_priority.jsonl"
 with open(input_file, "r") as fin, open(output_file, "w") as fout:
     for i, line in enumerate(fin, start=1):
         if not line.strip():
