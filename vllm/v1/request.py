@@ -48,6 +48,9 @@ class Request:
         self.request_id = request_id
         self.client_index = client_index
         self.priority = priority
+        self.original_priority = priority
+        self.output_token_len_before_preemption = 0
+        self.decoding_time = 0
         self.sampling_params = sampling_params
         self.pooling_params = pooling_params
         # Because of LoRA, the eos token id can be different for each request.
@@ -154,6 +157,8 @@ class Request:
         self,
         token_ids: int | list[int],
     ) -> None:
+        if self.num_output_tokens == 0:
+            self.decoding_time = time.time()
         if isinstance(token_ids, int):
             self._output_token_ids.append(token_ids)
             self._all_token_ids.append(token_ids)

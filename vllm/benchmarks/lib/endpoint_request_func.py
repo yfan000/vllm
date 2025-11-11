@@ -160,6 +160,7 @@ async def async_request_openai_completions(
         if request_func_input.model_name
         else request_func_input.model,
         "prompt": request_func_input.prompt,
+        "priority": request_func_input.priority,
         "temperature": 0.0,
         "repetition_penalty": 1.0,
         "max_tokens": request_func_input.output_len,
@@ -294,6 +295,7 @@ async def async_request_openai_chat_completions(
         "messages": [
             {"role": "user", "content": content},
         ],
+        "priority": request_func_input.priority,
         "temperature": 0.0,
         "max_completion_tokens": request_func_input.output_len,
         "stream": True,
@@ -389,6 +391,7 @@ async def async_request_openai_audio(
         "model": request_func_input.model_name
         if request_func_input.model_name
         else request_func_input.model,
+        "priority": request_func_input.priority,
         "temperature": 0.0,
         "max_completion_tokens": request_func_input.output_len,
         "stream": True,
@@ -534,6 +537,7 @@ async def async_request_openai_embeddings(
         if request_func_input.model_name
         else request_func_input.model,
         "input": request_func_input.prompt,
+        "priority": request_func_input.priority,
         # Many embedding models have short context length,
         # this is to avoid dropping some of the requests.
         "truncate_prompt_tokens": -1,
@@ -574,6 +578,7 @@ async def async_request_vllm_rerank(
         else request_func_input.model,
         "query": request_func_input.prompt[0],
         "documents": request_func_input.prompt[1:],
+        "priority": request_func_input.priority,
         # Many reranker models have short context length,
         # this is to avoid dropping some of the requests.
         "truncate_prompt_tokens": -1,
@@ -612,6 +617,7 @@ async def async_request_openai_embeddings_chat(
         "messages": [
             {"role": "user", "content": content},
         ],
+        "priority": request_func_input.priority,
         # Many embedding models have short context length,
         # this is to avoid dropping some of the requests.
         "truncate_prompt_tokens": -1,
@@ -710,6 +716,7 @@ async def async_request_infinity_embeddings(
         "model": request_func_input.model_name
         if request_func_input.model_name
         else request_func_input.model,
+        "priority": request_func_input.priority,
     }
 
     if request_func_input.prompt:

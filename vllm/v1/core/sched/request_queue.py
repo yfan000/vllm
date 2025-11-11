@@ -57,6 +57,10 @@ class RequestQueue(ABC):
         pass
 
     @abstractmethod
+    def order_requests(self) -> None:
+        pass
+
+    @abstractmethod
     def __bool__(self) -> bool:
         """Check if queue has any requests."""
         pass
@@ -83,6 +87,9 @@ class FCFSRequestQueue(deque[Request], RequestQueue):
     def add_request(self, request: Request) -> None:
         """Add a request to the queue according to FCFS policy."""
         self.append(request)
+
+    def order_requests(self) -> None:
+        pass
 
     def pop_request(self) -> Request:
         """Pop a request from the queue according to FCFS policy."""
@@ -148,6 +155,9 @@ class PriorityRequestQueue(RequestQueue):
     def add_request(self, request: Request) -> None:
         """Add a request to the queue according to priority policy."""
         heapq.heappush(self._heap, (request.priority, request.arrival_time, request))
+
+    def order_requests(self) -> None:
+        heapq.heapify(self._heap)
 
     def pop_request(self) -> Request:
         """Pop a request from the queue according to priority policy."""
