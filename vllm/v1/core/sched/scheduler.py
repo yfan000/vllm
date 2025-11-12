@@ -395,8 +395,9 @@ class Scheduler(SchedulerInterface):
             chosen_requests = []
             while self.waiting and token_budget > 0:
                 if len(self.running) == self.max_num_running_reqs:
-                    break
-
+                    # break
+                    if self.policy == SchedulingPolicy.FCFS:
+                        break
                 request = self.waiting.peek_request()
 
                 # KVTransfer: skip request if still waiting for remote kvs.
@@ -677,6 +678,7 @@ class Scheduler(SchedulerInterface):
 
                 req_index += 1
                 self.running.append(request)
+                chosen_requests.append(request)
                 if self.log_stats:
                     request.record_event(
                         EngineCoreEventType.SCHEDULED, scheduled_timestamp
