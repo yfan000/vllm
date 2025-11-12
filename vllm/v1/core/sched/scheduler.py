@@ -714,6 +714,9 @@ class Scheduler(SchedulerInterface):
         if skipped_waiting_requests:
             self.waiting.prepend_requests(skipped_waiting_requests)
 
+        if preempted_reqs:
+            self.waiting.prepend_requests(preempted_reqs)
+
         # Check if the scheduling constraints are satisfied.
         total_num_scheduled_tokens = sum(num_scheduled_tokens.values())
         assert total_num_scheduled_tokens <= self.max_num_scheduled_tokens
