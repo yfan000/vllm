@@ -221,7 +221,7 @@ class Scheduler(SchedulerInterface):
                     req.priority = float('-inf')
                     if (req.num_output_tokens-req.output_token_len_before_preemption) > self.preemption_length_threshold: # if the decode request could be preempted
                         if req.num_output_tokens-(time_stamp-req.decoding_time)*self.reading_speed > self.ahead_tokens: # faster than reading speed
-                            req.priority = req.original_priority
+                            req.priority = abs(req.original_priority)
 
         # First, schedule the RUNNING requests.
         req_index = 0
@@ -379,6 +379,7 @@ class Scheduler(SchedulerInterface):
 
         if self.policy == SchedulingPolicy.PRIORITY:
             for req in self.waiting:
+                '''
                 if req.original_priority > self.preemption_length_threshold:
                     if req.num_output_tokens == 0: # not been scheduled yet
                         if req.priority > self.preemption_length_threshold:
@@ -389,6 +390,13 @@ class Scheduler(SchedulerInterface):
                             req.priority = float('-inf')
                         else:
                             req.priority = req.original_priority * 100000 # could still waiting in the queue
+                '''
+                if req.num_output_tokens > self.preemption_back_to_running_threshold:
+                    if req.num_output_tokens-(time_stamp-req.decoding_time)*self.reading_speed < self.preemption_back_to_running_threshold: # approaching reading speed
+                        req.priority = float('-inf')
+                    else:
+                        req.priority = abs(req.original_priority) * 1000 # could still waiting in the queue
+
             self.waiting.order_requests()
 
         # Next, schedule the WAITING requests.
@@ -1303,12 +1311,14 @@ class Scheduler(SchedulerInterface):
         return len(self.running), len(self.waiting)
 
     def add_request(self, request: Request) -> None:
+        '''
         if request.priority > self.preemption_length_threshold:
             avg_size = self.total_scheduled_size / self.total_scheduled_requests
             request.priority = int(avg_size)*random.uniform(1.5, 4.0)
         else:
             self.total_scheduled_requests += 1
             self.total_scheduled_size += request.original_priority
+        '''
         self.waiting.add_request(request)
         self.requests[request.request_id] = request
         if self.log_stats:
