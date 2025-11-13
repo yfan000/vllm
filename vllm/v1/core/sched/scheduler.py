@@ -69,7 +69,7 @@ class Scheduler(SchedulerInterface):
         self.total_scheduled_size = 100
         self.reading_speed = 300.0/60.0
         self.preemption_length_threshold = 500
-        self.preemption_back_to_running_threshold = 100
+        self.preemption_back_to_running_threshold = 50
         self.ahead_tokens = 500
 
         # include_finished_set controls whether a separate set of finished
