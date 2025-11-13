@@ -39,6 +39,7 @@ from vllm.v1.request import Request, RequestStatus
 from vllm.v1.spec_decode.metrics import SpecDecodingStats
 from vllm.v1.structured_output import StructuredOutputManager
 from vllm.v1.utils import record_function_or_nullcontext
+import random
 
 logger = init_logger(__name__)
 
@@ -382,7 +383,7 @@ class Scheduler(SchedulerInterface):
                     if req.num_output_tokens == 0: # not been scheduled yet
                         if req.priority > self.preemption_length_threshold:
                             avg_size = self.total_scheduled_size / self.total_scheduled_requests
-                            req.priority = int(avg_size)
+                            req.priority = int(avg_size)*random.uniform(1.5, 4.0)
                     else: # preempted before
                         if req.num_output_tokens-(time_stamp-req.decoding_time)*self.reading_speed < self.preemption_back_to_running_threshold: # approaching reading speed
                             req.priority = float('-inf')
@@ -1304,7 +1305,7 @@ class Scheduler(SchedulerInterface):
     def add_request(self, request: Request) -> None:
         if request.priority > self.preemption_length_threshold:
             avg_size = self.total_scheduled_size / self.total_scheduled_requests
-            request.priority = int(avg_size)
+            request.priority = int(avg_size)*random.uniform(1.5, 4.0)
         else:
             self.total_scheduled_requests += 1
             self.total_scheduled_size += request.original_priority
