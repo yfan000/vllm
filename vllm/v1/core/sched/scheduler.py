@@ -221,7 +221,7 @@ class Scheduler(SchedulerInterface):
                     req.priority = float('-inf')
                     if (req.num_output_tokens-req.output_token_len_before_preemption) > self.preemption_length_threshold: # if the decode request could be preempted
                         if req.num_output_tokens-(time_stamp-req.decoding_time)*self.reading_speed > self.ahead_tokens: # faster than reading speed
-                            req.priority = abs(req.original_priority)
+                            req.priority = abs(req.original_priority)*1000
 
         # First, schedule the RUNNING requests.
         req_index = 0
