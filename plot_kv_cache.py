@@ -54,12 +54,13 @@ for filename in os.listdir(log_folder):
             plt.plot(timestamps, kv_usage_list, label="GPU KV Cache Usage (%)", marker='o')
             plt.plot(timestamps, prefix_hit_list, label="Prefix Cache Hit Rate (%)", marker='x')
             plt.xlabel("Time")
+            plt.xticks([])
             plt.ylabel("Percentage (%)")
             plt.title(f"GPU KV Cache & Prefix Hit Rate - {filename}")
             plt.legend()
             plt.grid(True)
             plt.tight_layout()
-            plt.xticks(rotation=45)
+            #plt.xticks(rotation=45)
 
             # Save plot
             plt.savefig(plot_file)
