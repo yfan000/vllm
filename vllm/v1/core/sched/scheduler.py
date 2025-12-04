@@ -579,6 +579,8 @@ class Scheduler(SchedulerInterface):
                             break
                         if preempted_req in chosen_requests:
                             break
+                        if len(preempted_reqs) >= 0.2 * len(self.running):
+                            break
                         self.running.remove(preempted_req)
                         if preempted_req in scheduled_running_reqs:
                             scheduled_running_reqs.remove(preempted_req)
