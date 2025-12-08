@@ -1,13 +1,13 @@
 #!/bin/bash
 
 MODEL="meta-llama/Llama-3.1-8B-Instruct"
-DATASETS=("alpaca_requests_1000_priority.jsonl" "longwriter_1000_priority.jsonl" "longcot_1000_priority.jsonl")
+DATASETS=("alpaca_1000_priority_original.jsonl" "longcot_1000_priority_original.jsonl" "longwriter_1000_priority_original.jsonl")
 OUTLEN=12800
 NUM_PROMPTS=1000
 
 # Sweep spaces ↓ Modify freely
-REQUEST_RATES=("inf" "5" "10" "15" "20" "30")
-MAX_NUM_SEQS=("64" "128" "256" "512")
+REQUEST_RATES=("inf" "5" "10" "15" "20")
+MAX_NUM_SEQS=("128" "256")
 
 # mkdir -p benchmark_results
 
@@ -32,7 +32,7 @@ for ds in "${DATASETS[@]}"; do
 
             SERVER_PID=$!
             echo "Server running (PID=$SERVER_PID), warming up..."
-            sleep 600    # Increase if model loading slow
+            sleep 200    # Increase if model loading slow
 
             # ---- Run benchmark ----
             vllm bench serve \
@@ -51,7 +51,7 @@ for ds in "${DATASETS[@]}"; do
             # ---- Terminate server ----
             echo "Stopping server PID=$SERVER_PID"
             kill "$SERVER_PID"
-            sleep 600   # let CUDA/GPU release before next run
+            sleep 200   # let CUDA/GPU release before next run
 
         done
     done
