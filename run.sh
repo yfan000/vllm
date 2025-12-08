@@ -1,7 +1,7 @@
 #!/bin/bash
 
 MODEL="meta-llama/Llama-3.1-8B-Instruct"
-DATASETS=("longwriter_1000_priority_original.jsonl" "longcot_1000_priority_original.jsonl")
+DATASETS=("alpaca_requests_1000_priority.jsonl" "longwriter_1000_priority.jsonl" "longcot_1000_priority.jsonl")
 OUTLEN=12800
 NUM_PROMPTS=1000
 
