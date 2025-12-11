@@ -90,6 +90,7 @@ class RequestFuncOutput:
     ttft: float = 0.0  # Time to first token
     itl: list[float] = field(default_factory=list)  # list of inter-token latencies
     tpot: float = 0.0  # avg next-token latencies
+    prompt: str | list[str] = ""
     prompt_len: int = 0
     error: str = ""
     start_time: float = 0.0
@@ -177,6 +178,7 @@ async def async_request_openai_completions(
     _update_headers_common(headers, request_func_input)
 
     output = RequestFuncOutput()
+    output.prompt = request_func_input.prompt
     output.prompt_len = request_func_input.prompt_len
 
     generated_text = ""
@@ -310,8 +312,9 @@ async def async_request_openai_chat_completions(
     _update_headers_common(headers, request_func_input)
 
     output = RequestFuncOutput()
+    output.prompt = request_func_input.prompt
     output.prompt_len = request_func_input.prompt_len
-
+    
     generated_text = ""
     ttft = 0.0
     st = time.perf_counter()
@@ -421,6 +424,7 @@ async def async_request_openai_audio(
             form.add_field(key, str(value))
 
         output = RequestFuncOutput()
+        output.prompt = request_func_input.prompt
         output.prompt_len = request_func_input.prompt_len
 
         generated_text = ""
