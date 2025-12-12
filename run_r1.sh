@@ -1,7 +1,7 @@
 #!/bin/bash
 
 MODEL="deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
-DATASETS=("alpaca_requests_1000_priority.jsonl" "longwriter_1000_priority.jsonl" "longcot_1000_priority.jsonl")
+DATASETS=("longwriter_1000_priority.jsonl" "longcot_1000_priority.jsonl")
 OUTLEN=12800
 NUM_PROMPTS=1000
 
