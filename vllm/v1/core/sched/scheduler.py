@@ -69,7 +69,7 @@ class Scheduler(SchedulerInterface):
         self.total_scheduled_requests = 1
         self.total_scheduled_size = 100
         self.reading_speed = 300.0/60.0
-        self.preemption_length_threshold = 1000
+        self.preemption_length_threshold = 1300
         self.preemption_back_to_running_threshold = 100
         self.ahead_tokens = 500
 

@@ -1,0 +1,1000 @@
+{"prompt":"Come up with 5 example datasets that demonstrate the use of natural language processing. <No input>","priority":139}
+{"prompt":"Find three interesting facts about kiwi fruit.","priority":144}
+{"prompt":"Generate a strategy to organize a research project","priority":150}
+{"prompt":"On a scale from 1 to 5, rate this customer service experience I was having an issue with my computer and called the customer service number. The representative was very helpful and solved my problem in a very professional manner.","priority":150}
+{"prompt":"Generate a job title for a job that involves data analysis and report creation.","priority":151}
+{"prompt":"Pick any two famous painters and explain what makes their works distinctive from each other.","priority":153}
+{"prompt":"Rewrite the sentence using the adjectives in the input. The dogs barked loudly. \nAdjectives: shrill, piercing","priority":155}
+{"prompt":"Compare and contrast the two towns of Cedar Rapids and Ames","priority":158}
+{"prompt":"Compose a poem that is about nature.","priority":170}
+{"prompt":"Create an email subject line for an advertisement.","priority":176}
+{"prompt":"Who is the most populated city in Pakistan?","priority":176}
+{"prompt":"Identify the prototype of this function. function sortNumbers(arr){\n    arr.sort(function(a, b) {\n        return a - b;\n    });\n    return arr;\n}","priority":185}
+{"prompt":"Identify three scientific terms that describe the following phenomenon:\n\nA mysterious force that makes two objects attracted to each other.","priority":188}
+{"prompt":"Create a chart to visualize the given data. Number of cars manufactured in the US in 2019: 11 million\nNumber of cars manufactured in the US in 2020: 8 million","priority":192}
+{"prompt":"Given a tweet, change its tone from negative to positive. The customer service here is terrible","priority":199}
+{"prompt":"List five famous people from India.","priority":203}
+{"prompt":"Generate a person's name from a set of symbols. symbols: \ud83d\udc60 \ud83d\udc08 \ud83d\udc2e \ud83c\udf0f","priority":204}
+{"prompt":"Write a 5-sentence story based on the following theme: 'Finding Adventure'.","priority":208}
+{"prompt":"Make a list of five items that can be used to make a successful presentation.","priority":209}
+{"prompt":"Write a function that calculates the average of three numbers","priority":210}
+{"prompt":"Rewrite the following sentence which contains a grammatical error. The music that I enjoyed listen was classical.","priority":218}
+{"prompt":"Describe the visual of a space rocket taking off.","priority":219}
+{"prompt":"Come up with an effective exercise routine.","priority":221}
+{"prompt":"Compose a new version of this sentence using active voice. The painting was completed by him.","priority":222}
+{"prompt":"List the tools that you would need to complete an oil painting.","priority":225}
+{"prompt":"Compose a haiku about the wonders of technology.","priority":225}
+{"prompt":"Classify the provided objects. dog, cat, ant","priority":226}
+{"prompt":"Write a brief comparison of two different types of cheese.","priority":227}
+{"prompt":"Explain how to set up a website.","priority":227}
+{"prompt":"Write a short haiku poem that reflects our current emotional state.","priority":228}
+{"prompt":"Identify some common mistakes made by novice writers.","priority":229}
+{"prompt":"How does gravity affect the motion of an object?","priority":232}
+{"prompt":"Find a recipe for pan seared salmon.","priority":233}
+{"prompt":"Create a word that describes the relationship between a mother and a son.","priority":235}
+{"prompt":"Compare the following two objects in the form of a sentence. Cat and dog","priority":235}
+{"prompt":"Choose a career that is in demand.","priority":238}
+{"prompt":"Describe a technology that has had a significant impact in the last five years.","priority":240}
+{"prompt":"Create a slogan that describes the company's values or mission. Company Name: Comfort Now","priority":242}
+{"prompt":"Describe a strategy for memorizing vocabulary words.","priority":243}
+{"prompt":"Generate a 20 words story about a robot becoming self-aware.","priority":246}
+{"prompt":"Read the news article and classify it according to its topic. The World Health Organization is warning that the world may soon face a wave of mental health issues, due to the extra stress caused by the coronavirus pandemic.","priority":246}
+{"prompt":"Generate a list of 10 tips for overcoming social anxiety.","priority":247}
+{"prompt":"Make a prediction about an emerging trend in the mobile industry.","priority":249}
+{"prompt":"List 5 popular dishes in US.","priority":252}
+{"prompt":"Find a good restaurant near the address given 660 Lexington Avenue, New York, NY 10022","priority":253}
+{"prompt":"Name two important characters from the novel A Tale of Two Cities. A Tale of Two Cities","priority":256}
+{"prompt":"Insert the missing articles. Bob goes ____ school every day.","priority":257}
+{"prompt":"List five applications of digital technology in healthcare. <No input>","priority":257}
+{"prompt":"Generate a sentence that expresses intent to do something.","priority":260}
+{"prompt":"Describe a healthy diet","priority":261}
+{"prompt":"Write a term paper on the topic \"Benefits of Sleep\". Noinput","priority":261}
+{"prompt":"Write a Python function to print a Fibonacci sequence.","priority":263}
+{"prompt":"Choose a statement that is true about the following two numbers: 24 and 36","priority":263}
+{"prompt":"Generate an intro for this article This article is about the importance of sleep and its benefits to the body.","priority":264}
+{"prompt":"Generate a hashtag to promote a brand or product. Halo Burger","priority":265}
+{"prompt":"Take these two words and write a compound word. soccer + ball","priority":266}
+{"prompt":"Which of the following values is neither prime nor composite? Options: 7, 12, 0","priority":266}
+{"prompt":"Generate a list of tips for creating an effective presentation.","priority":267}
+{"prompt":"Describe a possible cause of the given symptom. Migraine","priority":269}
+{"prompt":"Demonstrate the use of a for-loop in Python","priority":270}
+{"prompt":"Add an appropriate transitional phrase to connect the following two sentences. I could not finish the project on time. It caused me a lot of stress.","priority":271}
+{"prompt":"Besides the text inputed before, provide an additional input to this instruction. Obama has announced his plan to end the Iraq war.","priority":272}
+{"prompt":"Create three text-based mini-games in Python.","priority":272}
+{"prompt":"Generate a series of visual and auditory cues for a time interval of ten seconds","priority":273}
+{"prompt":"Name one type of cell in the body","priority":274}
+{"prompt":"Organize the items given into categories according to size. Table, pencil, ruler, book","priority":274}
+{"prompt":"Convert the sentence from the first-person point of view to the third-person point of view. I am going to the movies.","priority":274}
+{"prompt":"Generate names for a list of dishes given some ingredients. Ingredients: Pesto, Penne, Cheese","priority":278}
+{"prompt":"Suggest a popular song released in the last 5 years.","priority":279}
+{"prompt":"What are the best ways to create a budget?","priority":281}
+{"prompt":"Add a missing word in the following sentence. The _______ floated in the water.","priority":282}
+{"prompt":"Choose five adjectives that best describe a data scientist.","priority":282}
+{"prompt":"Identify the three types of triangle based on the following description. Triangles are classified according to their angles, which are measured in degrees.","priority":285}
+{"prompt":"summarize the content of this blog. The most important reason why people learn a new language is to better connect with a broader community. Whether it be for business or pleasure, language is often the key to understanding each other, overcoming barriers, and connecting with different cultures and people. Learning a new language offers many advantages, such as greater cultural awareness, greater ability to travel around the world, and improved job opportunities, as well as enhancing study skills.","priority":287}
+{"prompt":"Given a natural language question, convert it to a different type of question. What is the highest peak in the world?","priority":290}
+{"prompt":"How to create an email template?","priority":290}
+{"prompt":"Output a piece of code that will print out a list containing the numbers from 1 to 10.","priority":291}
+{"prompt":"Rewrite this sentence to make it more powerful:\n\"I'm excited about my new job.\"","priority":291}
+{"prompt":"Analyze the following poem and explain the tone and themes of the poem. \"The woods are lovely, dark and deep, \n\nBut I have promises to keep, \n\nAnd miles to go before I sleep, \n\nAnd miles to go before I sleep.\"","priority":295}
+{"prompt":"Provide the text that completes the sentence I was exhausted because I had been walking for ____","priority":296}
+{"prompt":"In one sentence, describe the importance of color in design.","priority":298}
+{"prompt":"Reword the following question so that it can be answered with a \"Yes\" or \"No\" Are you interested in playing chess?","priority":298}
+{"prompt":"Develop a role-playing game set in a post-apocalyptic world.","priority":300}
+{"prompt":"Summarize this article on the mathematics of movie production. The mathematics of motion picture production is a complex mix of art, science and craft. The mathematics of bringing movies to life through production is studied by Hollywood professionals in order to understand the entire process of getting a film from the script and into theaters.","priority":305}
+{"prompt":"Construct a phrase using the given words Pandemic, challenge, action","priority":306}
+{"prompt":"Estimate how long it will take to complete the task. Task: Building a website from scratch","priority":307}
+{"prompt":"Name a psychological disorder","priority":308}
+{"prompt":"Design a program that simulates an animal's habitat.","priority":310}
+{"prompt":"Provide a solution to generate numbers from 0 to 9","priority":311}
+{"prompt":"Given the two sentences, change one to make it fit the grammar rules of the other. I am going. He goes.","priority":314}
+{"prompt":"Compose a poem that includes the words 'stars' and 'light'.","priority":316}
+{"prompt":"Rewrite this sentence to make it more formal: She had so much fun.","priority":316}
+{"prompt":"Describe the negative impacts of using plastic bags.","priority":317}
+{"prompt":"Design a product that would make cleaning easier.","priority":318}
+{"prompt":"Fix the code so that it runs without producing an error public class Demo {\n    public static void main(String[] args) {\n        int a = 10\n        int b= 10\n        System.out.println(\"Sum of both numbers: \" + a + b);\n    }\n}","priority":318}
+{"prompt":"Translate \"Hello my friend\" into German.","priority":318}
+{"prompt":"Generate a list of 10 relevant keywords for the writing prompt \"ways to reduce stress\".","priority":319}
+{"prompt":"Summarize the article: How To Play Solitaire https:\/\/www.wikihow.com\/Play-Solitaire","priority":319}
+{"prompt":"State 3 facts about monkeys","priority":319}
+{"prompt":"Update the following sentence using modern-day language: He waited for her reply with breath bated.","priority":320}
+{"prompt":"Calculate the value of this math equation. Equation: $(7+1)\\times5$","priority":322}
+{"prompt":"Find the value of x in the following equation: 3x + 2 = 12","priority":322}
+{"prompt":"Identify the statements which represent facts. Croissants are French pastries. The sky is blue.","priority":322}
+{"prompt":"Classify this article according to its content. Output one of the following options: medical, entertainment, business, sports, fashion. US plans to reduce carbon emissions","priority":323}
+{"prompt":"Given a recipe for a product, list the ingredients and the exact level of ingredients required. Recipe: Chocolate Cake","priority":325}
+{"prompt":"Write a headline for the article about the new issue of the magazine. Article: The new issue of the magazine focuses on climate change and how to tackle it in the future.","priority":327}
+{"prompt":"Create a post about the coronavirus for social media.","priority":330}
+{"prompt":"Edit the sentence such that no word is repeated This sentence contains contains repeating words.","priority":333}
+{"prompt":"Generate some of your own questions related to the following topic: The European Union","priority":333}
+{"prompt":"Generate a user interface for buying tickets to a concert.","priority":333}
+{"prompt":"Make a list of at least 5 benefits of virtual meetings.","priority":336}
+{"prompt":"Answer the following question. What is the purpose of the  United Nations?","priority":337}
+{"prompt":"Describe how social responsibility can be integrated into a company's mission statement.","priority":338}
+{"prompt":"Give three examples of financial budgeting techniques. <no input>","priority":340}
+{"prompt":"Generate a metaphor that compares a mountain and a person.","priority":341}
+{"prompt":"Create a list of 5 activities that people can do to stay healthy.","priority":341}
+{"prompt":"How would you prepare a cup of hot chocolate?","priority":343}
+{"prompt":"Given the following ingredients, come up with a delicious dish. Ingredients: Rice, onions, chicken","priority":345}
+{"prompt":"What is the main action taken by a 2020 presidential candidate when campaigning?","priority":345}
+{"prompt":"Research the historical origins of the term 'algorithm'. noinput","priority":351}
+{"prompt":"Add the following ingredients to a holiday cookie recipe: flour, honey, and molasses.","priority":352}
+{"prompt":"Identify the following musical genre. A style of music combining elements of punk rock, ska, reggae, and dub.","priority":352}
+{"prompt":"Can you please create a web page that includes a table of contact information for teachers?","priority":353}
+{"prompt":"Find the word that needs to be filled with a past tense verb My friends and I went to the park and ____ playing soccer.","priority":354}
+{"prompt":"Compare the characters in Alice's Adventures in Wonderland and Through the Looking-Glass.","priority":354}
+{"prompt":"Explain what economic globalization is.","priority":356}
+{"prompt":"You are provided with a text, and you have to edit it and make it grammatically correct with correct punctuation and correct capitalization. example of a bad error in this sentence don\u2019t use example","priority":358}
+{"prompt":"Create a close-ended prompt for a chatbot about sports news.","priority":361}
+{"prompt":"Generate a set of instructions to assemble the given object. Lego set","priority":362}
+{"prompt":"Rewrite the given code using optimized Algorithm. for x in range(10):\n  print(x)","priority":362}
+{"prompt":"Compare the given two pieces of artwork and tell us how they are similar and different. [Image 1]\n\n[Image 2]","priority":365}
+{"prompt":"Generate an automated reply to the following email. Dear [name], \n\nI'm looking for an easy-to-use software program to create financial reports.","priority":365}
+{"prompt":"Write a blog post on why small businesses should invest in SEO","priority":365}
+{"prompt":"Name a food rich in iron.","priority":365}
+{"prompt":"Increment a given binary number by one. 1101","priority":366}
+{"prompt":"Generate a plan on how to start a healthy diet.","priority":366}
+{"prompt":"Add two sentences to this dialogue to make it complete. Wonka: Who are you?\nCharlie: I'm Charlie Bucket.","priority":370}
+{"prompt":"Given two people's names (Alice and Bob), write a dialogue between them. Alice and Bob","priority":371}
+{"prompt":"Generate a list of five given nouns into a story. nouns: Train, Wallet, Dinner, Pencil, Dog","priority":372}
+{"prompt":"Create a list of topics to discuss in a debate on gun control.","priority":373}
+{"prompt":"What is the average altitude of the Great Barrier Reef?","priority":373}
+{"prompt":"Name some of the benefits of exercising regularly.","priority":373}
+{"prompt":"Categorize this statement as a positive or negative statement. I'm not convinced that this is the right choice.","priority":373}
+{"prompt":"Review the given website and give feedback. http:\/\/www.example-site.com","priority":373}
+{"prompt":"Spell this word: querulous.","priority":374}
+{"prompt":"Make a list of six kitchen appliances that every chef should have.","priority":376}
+{"prompt":"Suggest a title for a speech about how technology shapes our lives.","priority":376}
+{"prompt":"Tell me about the difference between a civil and a criminal lawsuit","priority":376}
+{"prompt":"Applying the provided sentence, create a sentence that expresses gratitude. I was very fortunate to have you as a mentor.","priority":376}
+{"prompt":"Explain what deep learning is and how it is used in artificial intelligence.","priority":379}
+{"prompt":"Describe the process involved in making instant coffee.","priority":380}
+{"prompt":"Give a security measure that can help protect a phone from malware.","priority":381}
+{"prompt":"Find the meaning of the term 'artificial intelligence'","priority":381}
+{"prompt":"Insert appropriate compound words into the text. He drove the car to the store and then went food shopping.","priority":385}
+{"prompt":"Formulate a marketing plan for a new mobile app.","priority":386}
+{"prompt":"Generate a unique r\u00e9sum\u00e9 headline for someone with a degree in Finance and 10 years of experience.","priority":386}
+{"prompt":"Describe a hypothesis related to a study.","priority":387}
+{"prompt":"Select a suitable gift for an 8 year old boy.","priority":387}
+{"prompt":"Form a hypothesis on the relationship between ocean temperature and rate of photosynthesis.","priority":388}
+{"prompt":"Create a text generator for a storyline about a superhero.","priority":389}
+{"prompt":"Generate a few lyrics for a rap about getting up early in the morning.","priority":390}
+{"prompt":"Organize the following parts of a paper into the correct order Conclusion, Introduction, Body","priority":391}
+{"prompt":"Write an email to your client introducing yourself.","priority":392}
+{"prompt":"Offer a suggestion for a healthy snack.","priority":394}
+{"prompt":"Write a description of a character who is a computer programmer.","priority":394}
+{"prompt":"Describe how a customer might feel when they receive excellent customer service.","priority":395}
+{"prompt":"Write a short story in the history of a particular invented product. Product: \"Homework Bot\"","priority":395}
+{"prompt":"Utilize the given data set and answer the following question. Question: What will be the total coronavirus cases reported in India in the year 2021?\nData set: Daily Coronavirus Cases in India in 2020","priority":399}
+{"prompt":"Write a function that takes an array of numbers and sorts them in ascending order. [5, 2, 9, 7, 4, 1]","priority":405}
+{"prompt":"Create an argument that climate change is a serious threat.","priority":406}
+{"prompt":"Generate questions for a math quiz.","priority":406}
+{"prompt":"Create a story based around this opening line: \u201cIt was a dark and stormy night.\u201d","priority":406}
+{"prompt":"Compare the similarity of the given two words. Apple and Orange","priority":410}
+{"prompt":"Describe what it means to be brave.","priority":410}
+{"prompt":"What are the benefits of using a data visualization tool?","priority":410}
+{"prompt":"Create a computer program to list the first 10 prime numbers.","priority":411}
+{"prompt":"Piece the following sentences together to form a fluent and grammatically correct paragraph. It takes a village to raise a child\nWhen it comes to raising healthy children","priority":413}
+{"prompt":"Generate a list of questions based on the given input text. Text: Hamlet is one of the greatest tragedies ever written by William Shakespeare.","priority":413}
+{"prompt":"Write some pseudo-code to implement merge sort.","priority":414}
+{"prompt":"Order these numbers from highest to lowest. 2, 8, 5, 1","priority":415}
+{"prompt":"Given a piece of text, suggest an appropriate title. \"She was a kind hearted woman who always had a smile on her face.\"","priority":415}
+{"prompt":"Describe the primary role of contact tracing in limiting the spread of disease.","priority":416}
+{"prompt":"Create a design and layout for a children's bedroom.","priority":417}
+{"prompt":"Compare and contrast the meanings of 'love' and 'affection'.","priority":419}
+{"prompt":"Suggest a new re-branding strategy for the following company. Company: ABC Technologies","priority":423}
+{"prompt":"Insert a transition word at the beginning of this sentence. He found the treasure after searching for a long time.","priority":423}
+{"prompt":"Name a famous US President","priority":424}
+{"prompt":"Convert the following base 10 numbers to binary. 63, 22","priority":425}
+{"prompt":"Sort this list of fruits from the sweetest to the least sweet. Banana, Pineapple, Apple, Grapes","priority":425}
+{"prompt":"Tell me about the traditional Philippine clothing for men.","priority":428}
+{"prompt":"Given an everyday situation, create a brief story around it. Riding the subway","priority":430}
+{"prompt":"Write down a story about a woman who persevered through adversity.","priority":431}
+{"prompt":"Create a marketing strategy Business: Online store selling home decor","priority":431}
+{"prompt":"Ge rerate 3 product ideas for a new mobile application.","priority":432}
+{"prompt":"Name a type of movie that is appropriate for children to watch.","priority":432}
+{"prompt":"What is the fourth line of the lyrics? Emotions come and go and fade away\nAnd like the sun, they have their perfect day\nSo give it your all and let it be","priority":435}
+{"prompt":"Generate a list of five characters that would be featured in a teenage drama.","priority":435}
+{"prompt":"Reduce the following text to 100 words. The word for word repetition of a section of dialogue, especially the first one, is a common feature in television commercials. It's a strategy often used to emphasize the point that's being made and to give the audience time to really process the message. The repetition can also be used to make sure the audience is really paying attention and deter them from tuning out or changing the channel. The use of a specific phrase in this way facilitates memorization as it is an indication to the viewer that this point is important.","priority":435}
+{"prompt":"Please recommend me a movie.","priority":435}
+{"prompt":"What are the principles of the Agile methodology?","priority":438}
+{"prompt":"List 3 countries in Africa and their capital cities.","priority":439}
+{"prompt":"Give me five examples of artificial intelligence technologies and how they are being used in the world today.","priority":439}
+{"prompt":"Provide two examples of how the given technology could be used in a classroom setting. Augmented Reality","priority":440}
+{"prompt":"Summarise the key features of a K-means Clustering Algorithm","priority":440}
+{"prompt":"Create a list of eight clothing items an individual should have in their wardrobe","priority":442}
+{"prompt":"Sort the following sequence of events chronologically. Magellan reaches Tierra del Fuego, Ferdinand Magellan begins the first circumnavigation of the world, Francis Drake returns to Plymouth","priority":442}
+{"prompt":"Create a visual of the solar system with six planets.","priority":443}
+{"prompt":"What is the most essential element for a successful blog?","priority":446}
+{"prompt":"Create an algorithm for playing tic tac toe in Python.","priority":449}
+{"prompt":"Please offer a suggestion for improving this sentence. He walked down the street.","priority":451}
+{"prompt":"Generate a persona for a webcomic with a teenage protagonist.","priority":453}
+{"prompt":"Create a sentence that accounts for the following sentence structure. N\/A","priority":454}
+{"prompt":"Create a mnemonic device to help someone remember the names of the first five U.S. Presidents.","priority":456}
+{"prompt":"Write a blog post about how to save money on a vacation.","priority":456}
+{"prompt":"Explain why marine animals have special adaptations.","priority":458}
+{"prompt":"Please analyze the underlying meaning of the following quote. \"It is not the strongest of the species that survives, nor the most intelligent, but the one most responsive to change.\"","priority":458}
+{"prompt":"Rank these three states in order of population size. Texas, California, New York","priority":458}
+{"prompt":"Explain the difference between programming languages and scripting languages.","priority":460}
+{"prompt":"Identify the author and title of the book given the following summary. A dying man reflects on his long and difficult life and how he overcame it all.","priority":460}
+{"prompt":"Edit the sentence \"She walking to school.\"","priority":460}
+{"prompt":"Please generate 3 to 5 words that are related to winter.","priority":461}
+{"prompt":"Identify popular dishes in Mexico.","priority":463}
+{"prompt":"Reconstruct the sentence to convey the opposite message. He is not qualified for the job.","priority":464}
+{"prompt":"Add the comparative form to the given sentence My quiz was hard.","priority":469}
+{"prompt":"List five areas of life that technology has impacted.","priority":470}
+{"prompt":"Given a list of ingredients and the instructions, compile them into a recipe. Ingredients: olive oil, diced tomatoes, whole wheat spaghetti\nInstructions: Heat 2 tablespoons of olive oil in a large pan over medium heat and add the diced tomatoes. Cook, stirring occasionally, until the tomatoes are softened. Bring a large pot of salted water to a boil, then add the spaghetti and cook until al dente.","priority":470}
+{"prompt":"List three pros and three cons of nuclear energy.","priority":471}
+{"prompt":"Pick apart the syntax of the sentence \"John loves to swim\".","priority":473}
+{"prompt":"How is artificial intelligence used in the finance sector?","priority":473}
+{"prompt":"Express the given sentiment in your own words. \"It is better to have tried and failed than not to have tried at all.\"","priority":474}
+{"prompt":"Name two species of animals that are classified as endangered.","priority":476}
+{"prompt":"Describe a professional email etiquette for the workplace.","priority":476}
+{"prompt":"Generate a story about a friend's experience with a mysterious creature.","priority":478}
+{"prompt":"Compose a poem that is at least 10 lines long on the theme 'love'.","priority":478}
+{"prompt":"Document the following algorithm into pseudo-code. 1. Start\n2. Read in a list of numbers\n3. Calculate the sum of all the numbers\n4. Print out the result\n5. End","priority":479}
+{"prompt":"Summarize the following passage in up to 100 words. Alice lives in a small town in the middle of nowhere. The town is full of quirky characters who are constantly in and out of each other\u2019s lives. She has a close circle of friends and enjoys the small-town feel and its friendly vibe.","priority":480}
+{"prompt":"Classify these two types of animals Hummingbird and Penguin","priority":482}
+{"prompt":"Explain 5 common applications of Deep Learning.","priority":484}
+{"prompt":"Detect irony in a sentence. My parents said I could go to the party, but I already bought the tickets.","priority":484}
+{"prompt":"Describe what a neural network is in three sentences.","priority":484}
+{"prompt":"Rank the items below from the most time-consuming to the least time-consuming. - Researching online\n- Meeting with a team\n- Crafting an essay","priority":485}
+{"prompt":"Generate a paragraph describing a summer day in the park","priority":485}
+{"prompt":"Explain why positive brand associations are important.","priority":486}
+{"prompt":"Write a sentence to explain the relationship between the two given words. Networking, Collaboration","priority":487}
+{"prompt":"Write a description of the architecture of a deep neural network model.","priority":487}
+{"prompt":"Rewrite this product description using active verbs Our product is designed to help you better manage your finances.","priority":489}
+{"prompt":"Generate an example sentence using the following words: furious, venture, irritability.","priority":492}
+{"prompt":"Fill in the blank with the best word to complete the following sentence:\n\n\"It was raining ____ so I decided to stay inside.\"","priority":495}
+{"prompt":"Take the input sentence and remove the verb. Robert has been running.","priority":496}
+{"prompt":"Create a question to test the understanding of a learner on the given topic. Difference between Overfitting and Underfitting","priority":497}
+{"prompt":"Explain why someone who wants to recycle their old books should donate them to a library. <no input>","priority":497}
+{"prompt":"Write a short poem related to the environment.","priority":499}
+{"prompt":"Construct a regular expression to match the following pattern Any word that starts with 'c' and ends with 'h'","priority":500}
+{"prompt":"Write a sentence about a financial market that uses the following words: trading, volatility, and bearish.","priority":501}
+{"prompt":"Explain why one might enjoy playing a board game.","priority":502}
+{"prompt":"How much is a train ticket from Charing Cross to London Bridge?","priority":502}
+{"prompt":"Describe a common misconception about the given topic. GPT Models","priority":502}
+{"prompt":"Explain the most effective strategy for memorizing a list of 10 items.","priority":504}
+{"prompt":"Think of a funny joke.","priority":505}
+{"prompt":"Identify a US state that begins with the letter \"S\".","priority":505}
+{"prompt":"Divide 10 by 4 and remove the remainder.","priority":505}
+{"prompt":"Rewrite these sentences using different words This tech device will make your life more efficient and enjoyable.","priority":506}
+{"prompt":"Create a Java Class that has three methods.","priority":507}
+{"prompt":"Given this array data, calculate the average. [3, 7, 14, 17]","priority":507}
+{"prompt":"Rewrite the given sentence using jargon pertaining to computer engineering. We need to construct a data storage system.","priority":508}
+{"prompt":"Name three diseases caused by viruses.","priority":508}
+{"prompt":"You are given a dataset containing customer records. Determine the most common demographic among these customers. Name | Age | Gender | Location \nJohn | 28 | Male | New York \nKate | 32 | Female | California\nGreg | 45 | Male | Texas","priority":509}
+{"prompt":"Reconstruct the sentence by replacing each of the following blanks with either an adjective, noun, or verb John enjoyed ____ing with his new friends.","priority":509}
+{"prompt":"Incorporate ideas from the following quote into a presentayion: \"It is not the strongest of the species that survives, nor the most intelligent, but the one most responsive to change\".","priority":509}
+{"prompt":"Tell me what country this flag belongs to. [flag.jpg]","priority":510}
+{"prompt":"Describe the character of Arthur in this story. Arthur and Louis were two rival criminals who always competed against each other in their criminal undertakings. One day, they got into a row when Louis stole a safe from a bank and tried to escape.","priority":510}
+{"prompt":"What is the world\u2019s first 3D printing pen?","priority":519}
+{"prompt":"Provide a list of five positive and five negative effects of social media. (noinput)","priority":520}
+{"prompt":"What is the meaning of the French phrase 'Bonne chance'?","priority":520}
+{"prompt":"Compare two articles on the same topic based on their relevance and accuracy. Article 1: \"Big Banks Take On Climate Change\"\nArticle 2: \"BP's Plan to Fight Climate Change\"","priority":520}
+{"prompt":"Replace the <mask> in the following sentence with the most appropriate synonym. The horse whinnied in <mask>.","priority":521}
+{"prompt":"Generate an email to a friend, asking them to join you in taking an online course. Course Name: Introduction to Machine Learning","priority":522}
+{"prompt":"List 3 examples of Shakespeare\u2019s plays.","priority":522}
+{"prompt":"Come up with a business strategy to attract new customers. Company: Online clothing store","priority":523}
+{"prompt":"Create a holiday greeting message in fewer than 25 words.","priority":529}
+{"prompt":"Change the words with similar meanings. The climber began the ascent of the mountain","priority":529}
+{"prompt":"Create a procedure to troubleshoot an IT issue. Issue: Printer not working.","priority":530}
+{"prompt":"Add two numbers together and write out the answer in words. 8 + 8","priority":531}
+{"prompt":"From the following list, choose the least dangerous type of virus. - Trojan horse\n- Worm\n- Malware","priority":531}
+{"prompt":"Generate a poem using a special type of poetic form.","priority":534}
+{"prompt":"Describe what is the meaning of the saying \"practice makes perfect\".","priority":534}
+{"prompt":"Suppose that a customer wants to purchase a product from your online store. Construct a message to confirm the order.","priority":534}
+{"prompt":"Predict the outcome of this situation. A group of students developed a new mobile app and are hoping to launch it soon.","priority":536}
+{"prompt":"Given a scientific paper, identify the hypothesis, objectives, methodology and conclusions of the research. No input","priority":537}
+{"prompt":"Given two words, create a metaphor Sun and star","priority":538}
+{"prompt":"Come up with a social media campaign slogan.","priority":538}
+{"prompt":"Describe the role of data science in the healthcare industry","priority":538}
+{"prompt":"Generate a title for an article about technology in our future.","priority":539}
+{"prompt":"Generate a joke about one of the given topics. Cats","priority":541}
+{"prompt":"Provide the details of an event. Family Dance Party","priority":542}
+{"prompt":"Describe the weather today in Boston.","priority":542}
+{"prompt":"How can companies use artificial intelligence (AI) to increase their profits?","priority":543}
+{"prompt":"Read the following sentence and suggest an alternative version that is more descriptive. He was a brave boy.","priority":545}
+{"prompt":"Find the hidden meaning in the following proverb A stitch in time saves nine.","priority":545}
+{"prompt":"Using the input provided, write a story about a student who graduates from a university and returns home. Name: Jayden, University: UCSD, University Program: Engineering, Country: United States","priority":546}
+{"prompt":"Anticipate some consequences of the following action. Output a list of consequences. Cancelling public transportation services","priority":546}
+{"prompt":"Transform the following sentence into the passive voice I bought a book","priority":547}
+{"prompt":"How do economists measure economic growth?","priority":547}
+{"prompt":"Identify two health benefits of exercising.","priority":550}
+{"prompt":"Expand the following Abbreviation: \"IMO\"","priority":551}
+{"prompt":"List two advantages of using GPT-3 models.","priority":551}
+{"prompt":"Edit the following sentence: 'He realized he master the subject'","priority":552}
+{"prompt":"Categorize the following statement: \"The cat barked angrily\"","priority":553}
+{"prompt":"Figure out the word that connects the following three items Whale, Dolphin, Shark","priority":554}
+{"prompt":"Generate a list of steps to follow when troubleshooting a printer issue.","priority":557}
+{"prompt":"Summarize the main points of Plato's republic.","priority":560}
+{"prompt":"Convert the following equation from infix notation to postfix notation. 3 + 4","priority":560}
+{"prompt":"Calculate the compound interest on the given sum of money Principal: $1000\nRate: 5%\nTime: 8 years","priority":563}
+{"prompt":"Explain how to log into a computer.","priority":563}
+{"prompt":"Find the total population of Germany","priority":565}
+{"prompt":"Using the given words, create a haiku. silence, night, moon.","priority":567}
+{"prompt":"Describe why blockchain technology is important.","priority":570}
+{"prompt":"Explain the main cause of air pollution in the following city. Los Angeles","priority":573}
+{"prompt":"Analyze a historical event. The fall of the Berlin Wall in 1989","priority":575}
+{"prompt":"Write a historical account of the Discovery of Penicillin","priority":576}
+{"prompt":"Create a dialogue between two people discussing the topic of climate change.","priority":576}
+{"prompt":"Take the following function and simplify it: f(x) = 4x^2 + 4x + 1","priority":580}
+{"prompt":"Describe a funny joke that is clean and appropriate for kids.","priority":581}
+{"prompt":"Arrange the given books in order of the oldest publication date. Book 1: The Cat in the Hat (1957)\nBook 2: Alice's Adventures in Wonderland (1865)\nBook 3: Charlie and the Chocolate Factory (1964)","priority":584}
+{"prompt":"Rewrite the sentence to provide more clarity and flow. Making the decision to rent a house was a wise choice","priority":584}
+{"prompt":"Rewrite the following sentence to make it sound more professional: \u201cI was asked to do the job.\u201d I was asked to do the job.","priority":584}
+{"prompt":"Compare the educational requirements for becoming an accountant and a lawyer.","priority":585}
+{"prompt":"Given a customer complaint, provide customer service resolutions. I haven't received my package after I placed an order a week ago.","priority":586}
+{"prompt":"Compile a list of five tips for the given activity. Improving your communication skills","priority":589}
+{"prompt":"Develop a persuasive argument to save the endangered species.","priority":589}
+{"prompt":"Find the percentage of the number 95.","priority":590}
+{"prompt":"Generate an analogy that compares two related concepts.","priority":592}
+{"prompt":"Analyze the given text and identify the tone The stock market has been on a steady decline for weeks now.","priority":593}
+{"prompt":"Find the area of this triangle: A = (-2, 3), B = (1, 0), C = (0, -2).","priority":593}
+{"prompt":"Decompose the following statement into simpler, more concise sentences. The movie was exciting because it had a lot of unexpected twists and turns that kept us on the edge of our seats.","priority":593}
+{"prompt":"Write a code to detect the type of browser that is used to access the page.","priority":595}
+{"prompt":"Design a user interface","priority":598}
+{"prompt":"Create a movie review for the movie Frozen, expressing your opinion and giving it a score from 1-10.","priority":599}
+{"prompt":"In the following sentence, replace the word \"bridge\" with a synonym. The bridge linking the two countries was completed in 2021.","priority":599}
+{"prompt":"Name three differences between the corporate world and the freelance world.","priority":599}
+{"prompt":"Describe the most important features of a wine refrigerator.","priority":600}
+{"prompt":"Come up with three options for a team building exercise.","priority":600}
+{"prompt":"Read the following web page and generate three topics. https:\/\/www.weather.gov\/grk\/","priority":602}
+{"prompt":"Given a list of ingredients, suggest any missing ingredients needed to make a dish. Salt, olive oil, garlic","priority":603}
+{"prompt":"Rewrite the given sentence in a more formal tone. I had to go to the store real quick.","priority":603}
+{"prompt":"Complete the following sentence with a creative adjective The book was _______","priority":606}
+{"prompt":"Based on the following data points, identify which type of machine learning algorithm is being used. The data consists of temperature readings from one hundred different air conditioners over an eight-month period.","priority":606}
+{"prompt":"Analyze why a person's opinion can be wrong","priority":607}
+{"prompt":"Given an input sentence, use the appropriate online resources to calculate the sentiment of the sentence. I am so delighted with this product.","priority":608}
+{"prompt":"Evaluate the following statement: \"The internet has no boundaries\".","priority":609}
+{"prompt":"Generate a positive quote about success.","priority":610}
+{"prompt":"Generate a conversation between two friends who met after a long time.","priority":611}
+{"prompt":"Categorize the following sentence: The car is red.","priority":614}
+{"prompt":"Suggest two similar movies. The Lion King","priority":615}
+{"prompt":"Generate a title for a movie about struggles of a family during the COVID-19 pandemic.","priority":620}
+{"prompt":"Create a function in Java that takes array of integers and checks if it contains duplicates.","priority":626}
+{"prompt":"Suggest a fun activity you can do online.","priority":630}
+{"prompt":"Use a common adage and spin it in a positive way. Don't cry over spilled milk.","priority":631}
+{"prompt":"List five different types of users for a website","priority":631}
+{"prompt":"Find the number of sides of a hexagon.","priority":631}
+{"prompt":"What is the primary function of a router in a computer network?","priority":631}
+{"prompt":"Summarize the advantages of taking a gap year.","priority":632}
+{"prompt":"Convert the following SQL query into MongoDB query.\n\nSELECT * FROM movies WHERE year >= 2000","priority":633}
+{"prompt":"Suggest a book to read for someone interested in astronomy.","priority":634}
+{"prompt":"Suggest five strategies to increase motivation.","priority":634}
+{"prompt":"How could you establish a productive working environment for remote teams?","priority":634}
+{"prompt":"How would you define fascism?","priority":634}
+{"prompt":"Give three pieces of evidence to support the importance of physical activity for mental health.","priority":635}
+{"prompt":"Describe a person who is an enthusiastic supporter of the environment.","priority":635}
+{"prompt":"Could you create a subject + verb + object structure using the words bicycle and floating?","priority":636}
+{"prompt":"Classify the sentiment of the sentence: \"I am disappointed in the quality of the product.\"","priority":637}
+{"prompt":"Generate a persuasive argument for why schools should require students to learn coding.","priority":637}
+{"prompt":"Compute the total number of possible combinations of k elements from a set containing n elements. n = 4, k = 2","priority":640}
+{"prompt":"What are two technologies used to make autonomous vehicles?","priority":641}
+{"prompt":"Construct a thesis statement on the impact of media on society. No input.","priority":643}
+{"prompt":"Update the following Wikipedia article about cats by adding one new sentence that is not already mentioned in the article. Cats are small, carnivorous mammals in the family Felidae, often referred to as the domestic cats to distinguish them from wild members of the family.","priority":644}
+{"prompt":"Reword the following sentence: 'Humans are responsible for global warming'.","priority":645}
+{"prompt":"Name two endangered species of birds.","priority":646}
+{"prompt":"Name a commonly used e-commerce platform.","priority":646}
+{"prompt":"Find the sentence in the text which best describes the biggest advantage\/benefit of a certain action. Cloud computing can help organizations scale up on demand and reduce their hardware costs. It provides improved system reliability and availability, and fast provisioning of new IT resources.","priority":646}
+{"prompt":"Discuss the environmental and health impacts of deforestation.","priority":646}
+{"prompt":"How would you greet someone in a formal way?","priority":647}
+{"prompt":"Describe the purpose of hyperparameter optimization.","priority":648}
+{"prompt":"Write an equation for the total cost of an item with a given unit cost and number of items. 5 items with a cost of $2 each","priority":649}
+{"prompt":"Summarize the article \"Why Cats Make Bad Pets\". Cats make bad pets for a variety of reasons. Their natural hunting instincts can lead to destruction in the home, they are often independent, and require constant upkeep when it comes to grooming and vet care.","priority":649}
+{"prompt":"Find the theta between the two vectors '6i+2j' and '-3i+6j'","priority":649}
+{"prompt":"Create a five-word poem.","priority":649}
+{"prompt":"Describe a datastructure that could be used to store employee records.","priority":653}
+{"prompt":"Create a haiku that describes the feeling of freedom.","priority":654}
+{"prompt":"Find the five largest cities in France.","priority":654}
+{"prompt":"Generate a collection of 3 abbreviations related to the world of software engineering.","priority":657}
+{"prompt":"List three ways to present a persuasive argument.","priority":657}
+{"prompt":"Predict the next 3 words of the following sentence. His mother was a","priority":658}
+{"prompt":"Generate a list of potential keywords related to the topic of digital currency.","priority":660}
+{"prompt":"Identify the speaker's attitude towards the subject. I think this new policy is terrible.","priority":661}
+{"prompt":"Give an example of something that represents the concept of justice.","priority":662}
+{"prompt":"Generate code to create an array of numbers from 1 to 100","priority":663}
+{"prompt":"Can you think of a new idea for a mobile phone game?","priority":665}
+{"prompt":"Identify 3 uses of cloud computing in education.","priority":665}
+{"prompt":"Compare and contrast hydroelectric power and wind energy","priority":670}
+{"prompt":"Generate a list of five resources a student might use to research a paper on renewable energy sources.","priority":671}
+{"prompt":"Identify 3 books related to the topic of data science.","priority":677}
+{"prompt":"Identify the type of sentence structure used. The birds are singing, but the sun is hidden.","priority":678}
+{"prompt":"Generate a list of activities to do at home","priority":679}
+{"prompt":"Imagine you are a doctor. Create a health plan for a patient with diabetes.","priority":679}
+{"prompt":"Given the following context, generate a closing statement. I just wanted to thank you for the support you've given me over the years.","priority":679}
+{"prompt":"Identify the following mammal: Panther","priority":680}
+{"prompt":"Explain the impact of technology on education.","priority":680}
+{"prompt":"Explain what is meant by \u201ccontext-aware computing\u201d.","priority":680}
+{"prompt":"Choose two out of the three words given to form a new phrase. light, music, energy","priority":681}
+{"prompt":"Generate a series of multiplication questions from 1 to 10.","priority":681}
+{"prompt":"Create a survey question that would measure the following sentiment: The usability of the product","priority":683}
+{"prompt":"Take a story and redo the ending to make it more exciting or interesting. Alice is running away from dangerous robbers.","priority":683}
+{"prompt":"Determine what type of quadrilateral this would be based on the given information. All sides measure equal length and all angles measure equal.","priority":683}
+{"prompt":"How would you explain a machine learning algorithm to a child?","priority":684}
+{"prompt":"Create an algorithm that takes an input sentence and identifies the most important keywords. \"The cat sat on the mat.\"","priority":687}
+{"prompt":"List all the steps to repair a broken pipe.","priority":687}
+{"prompt":"Describe the food trends in the US in the last five years.","priority":687}
+{"prompt":"Create a corresponding css for the given html <div class=\"primary\">\n    <p>Sample text.<\/p>\n<\/div>","priority":690}
+{"prompt":"Complete the below passage by filling in the blanks. The effects of climate change are becoming increasingly ________ in our lives. New evidence suggests that global temperatures have been rising at an alarming _______ for the past century.","priority":691}
+{"prompt":"Generate a text that argues against the following statement Working from home is always better than working in an office","priority":691}
+{"prompt":"How would you describe the elements of the periodic table?","priority":692}
+{"prompt":"Describe the main challenges associated with tracking progress in a remote team.","priority":693}
+{"prompt":"Create an advertising slogan for a pet food company.","priority":693}
+{"prompt":"Describe what it means to live a good life.","priority":695}
+{"prompt":"Correctly use commas to separate the items in the following list cats dogs hamsters","priority":696}
+{"prompt":"Categorize the following sentence as an example of either an imperative sentence or interrogative sentence. Can you help me?","priority":696}
+{"prompt":"Compute the difference of 2 numbers. 32 and 11","priority":696}
+{"prompt":"Which language is most suitable for programming artificial intelligence?","priority":699}
+{"prompt":"Find all the examples of hyperbole in the text. The new dress was so beautiful it seemed to defy the laws of physics. It was the most impressive thing my eyes had ever seen!","priority":699}
+{"prompt":"Complete the following sentence starting after the word \"because\". I love exercising because","priority":701}
+{"prompt":"Search the web for the most common symptoms of the flu.","priority":702}
+{"prompt":"Compose a story about a girl on her journey to school.","priority":705}
+{"prompt":"Re-order the following list of elements in an alphabetical order. Grapes, Apple, Banana","priority":705}
+{"prompt":"Is using hashtags a good idea on social media?","priority":705}
+{"prompt":"Create a story ending the sentence. The river wound its way through the forest,","priority":707}
+{"prompt":"Suggest a title for a blog post about the advantages of traveling","priority":707}
+{"prompt":"Generate an example story given the following premise A man decides to write a book about his experiences during the pandemic.","priority":708}
+{"prompt":"Design a game using natural objects on a beach.","priority":708}
+{"prompt":"Find the definition of the world 'algorithm'.","priority":710}
+{"prompt":"Name some natural disasters that have occurred in Cuba in the past ten years.","priority":713}
+{"prompt":"Classify the following sentence as a statement or question: \"The cat jumped onto the table\".","priority":713}
+{"prompt":"Create a window cleaning checklist.","priority":716}
+{"prompt":"Generate a list of three benefits of taking a gap year.","priority":719}
+{"prompt":"Classify the following into mammals and non-mammals. Dog, chicken, horse, cat","priority":721}
+{"prompt":"Organize these 10 elements of the periodic table in increasing atomic number Chromium, Neodymium, Cadmium, Hafnium,\nSilver, Thorium, Sulfur, Xenon, Tin, Carbon","priority":722}
+{"prompt":"Create a program to check if the parenthesis of a string are balanced.","priority":724}
+{"prompt":"Compare the advantages and disadvantages of using an AI assistant.","priority":725}
+{"prompt":"Devise a strategic plan to improve public education.","priority":726}
+{"prompt":"Suggest three ways people can save energy in their homes. No input","priority":727}
+{"prompt":"Generate a numerical fact about the number 12.","priority":728}
+{"prompt":"Given the following chart, explain the trend it is showing <image of a chart showing a trend>","priority":730}
+{"prompt":"What is the name of the anime movie released in 2019?","priority":731}
+{"prompt":"We want to develop a mobile application for our business. Come up with at least 10 features of the application.","priority":732}
+{"prompt":"Take this list of four items and turn it into a slogan: Apple\nBanana\nOrange\nLemon","priority":735}
+{"prompt":"Identify the theme of a story. The story was about a young man who struggled with depression and eventually overcame it with the help of his friends.","priority":735}
+{"prompt":"Make a plan for learning a new language.","priority":737}
+{"prompt":"Write an email responding to this inquiry. Dear Customer Service,\n\nI am inquiring about the status of my order.","priority":738}
+{"prompt":"Describe the history and design of the Golden Gate Bridge.","priority":742}
+{"prompt":"Create an antonym of the word \"thin\"","priority":744}
+{"prompt":"Write two sentences that describe the painting called \"The Birth of Venus\" by Sandro Botticelli.","priority":747}
+{"prompt":"Compare and contrast chairs and desks.","priority":748}
+{"prompt":"Come up with an interesting way to introduce a product. A new phone app","priority":748}
+{"prompt":"How can I effectively set up an online store?","priority":748}
+{"prompt":"Given a customer inquiry about a product, provide an adequate response and suggest related product(s), if needed. Customer Inquiry: I am looking for a new laptop.","priority":749}
+{"prompt":"Change the tense of this sentence from future to present. He will call me later.","priority":752}
+{"prompt":"According to the given text, what is the main argument being made? As technology continues to develop and evolve, it is now becoming possible to automate many mundane tasks that once required humans to perform.","priority":756}
+{"prompt":"Comment on this statement. Climate change is a hoax invented by the Chinese.","priority":758}
+{"prompt":"Suggest an appropriate title for the below passage A global pandemic forced the hospitality industry to re-evaluate its practices and adapt to a new world of health and safety protocols.","priority":758}
+{"prompt":"Create a program the calculates the distance between two points.","priority":759}
+{"prompt":"Describe an example of a person experiencing the Dunning-Kruger effect.","priority":759}
+{"prompt":"Generate the product description for a men's casual shirt. Men's Casual Shirt, Red, Size Medium","priority":759}
+{"prompt":"Name 3 safety hazards of working in a production environment.","priority":761}
+{"prompt":"Imagine you are the servant of a noble household in colonial India and describe your typical day","priority":762}
+{"prompt":"Discuss the threats of overusing technology","priority":764}
+{"prompt":"Write a script to check for missing values in a dataset.","priority":765}
+{"prompt":"Provide a detailed description of a cloud-based data storage system.","priority":767}
+{"prompt":"Classify the following sentence according to its purpose:\n\n\"Do you have any questions?\"","priority":776}
+{"prompt":"Describe a setting that would create a feeling of suspense.","priority":776}
+{"prompt":"Given some ingredients, write a recipe for a healthy snack. Oats, banana, peanut butter","priority":777}
+{"prompt":"Generate a creative way to market a movie.","priority":777}
+{"prompt":"Describe the difference between the AI and ML.","priority":781}
+{"prompt":"Compose a short essay on the topic \"Exploring the Life in a City\"","priority":782}
+{"prompt":"Create a website feedback form.","priority":782}
+{"prompt":"Where is Stonehenge located?","priority":789}
+{"prompt":"Share two benefits of the given product. LED lighting","priority":790}
+{"prompt":"Create a representation of the following shape. Use ASCII characters. A pentagon","priority":793}
+{"prompt":"Rewrite the following sentence using the correct singular or plural verb form. The data are not organized.","priority":794}
+{"prompt":"Suggest a career that would be good for someone interested in both art and mathematics.","priority":795}
+{"prompt":"Write the title of a book starting with the following three words: \"cat, river, house\"","priority":796}
+{"prompt":"Write a persuasive argument on why the given activity should be implemented. Providing free internet access to all people.","priority":801}
+{"prompt":"Find 3 ways to reduce energy consumption in an office.","priority":802}
+{"prompt":"Compare two leaders in media. Jeff Bezos and Bill Gates","priority":804}
+{"prompt":"Compose a soothing tune of 30 seconds.","priority":808}
+{"prompt":"Write a query to retrieve all the customers from the table","priority":808}
+{"prompt":"Analyse the given poem and explain its use of lyricism and imagery. The wind roared in the night,\nScattering my worries in the sky\nOf ever-growing size.","priority":811}
+{"prompt":"Write two more sentences that use the same verb as the sentence provided. I like to read books.","priority":812}
+{"prompt":"Describe the concept of culture shock.","priority":813}
+{"prompt":"Is it ethical to splice genes of animals?","priority":815}
+{"prompt":"You are given a list of events. Using the given events, compose a story. Events: Someone is locked in a room\/They hear music coming from outside\/Someone is peeking into the window\/They find a key hidden under the bed","priority":815}
+{"prompt":"Which chemical element has the atomic number of 4?","priority":816}
+{"prompt":"Name two key features of a persuasive essay.","priority":818}
+{"prompt":"Make a cake recipe that is both easy to make and delicious.","priority":818}
+{"prompt":"Generate a random pun.","priority":819}
+{"prompt":"Change this sentence from past simple to present perfect. I wrote the report yesterday.","priority":820}
+{"prompt":"Rewrite the following sentence such that the meaning remains the same This disaster is more catastrophic than any other","priority":820}
+{"prompt":"Provide a short summary of Frankenstein by Mary Shelley","priority":821}
+{"prompt":"How can email communication be more efficient?","priority":823}
+{"prompt":"Answer the following multiple-choice question. The United States Constitution was ratified in what year?","priority":825}
+{"prompt":"Summarize the following news article about the current pandemic. https:\/\/www.nytimes.com\/2020\/08\/22\/world\/coronavirus-news.html","priority":827}
+{"prompt":"Output all the rhetorical devices that are used in the given sentence. The destruction of nature is indeed irreversible.","priority":830}
+{"prompt":"Describe the given item in terms of its color, size, and shape. A teapot","priority":831}
+{"prompt":"Generate the CSS code to change the font of the following HTML element <h1>This is a headline<\/h1>","priority":832}
+{"prompt":"Compose a 4-measure melody in C minor.","priority":834}
+{"prompt":"Describe how you would use social media as a musician.","priority":834}
+{"prompt":"Outline the steps to solving a system of linear equations","priority":835}
+{"prompt":"Clean up the given text to make it more concise. In the modern world, technology has made it possible for people to be able to do many things that would not have been  achievable before.","priority":836}
+{"prompt":"Brainstorm 3 creative marketing strategies for a small business","priority":839}
+{"prompt":"What is the reaction shown in the following gif?","priority":840}
+{"prompt":"Come up with three creative ways to encourage people to buy environmentally friendly products.","priority":841}
+{"prompt":"Make a list of popular social media websites.","priority":842}
+{"prompt":"Write one paragraph (5-7 sentences) about the impact of digital media on education.","priority":842}
+{"prompt":"Edit this sentence to make it more concise: \n\nThe employee that was assigned to the project had excessive difficulty understanding the problem. The employee assigned to the project had difficulty understanding the problem.","priority":842}
+{"prompt":"Collect ideas for a potential article about artificial intelligence.","priority":843}
+{"prompt":"Remove the passive voice in the sentence. Apples were grown by the farmers this year.","priority":843}
+{"prompt":"Create an algorithm to detect passwords that contain personal information.","priority":844}
+{"prompt":"Describe what you see in this photo. <Photo Attached>","priority":847}
+{"prompt":"Illustrate the given proverb with an example. Output the example directly. A stitch in time saves nine","priority":853}
+{"prompt":"Create a list of three interview questions for a Software Engineer job.","priority":856}
+{"prompt":"How can I keep my house cool in the heat?","priority":860}
+{"prompt":"Give me a short biography of Winston Churchill.","priority":870}
+{"prompt":"Find the specific sentence(s) in the passage that shows the author's opinion. The increasing prevalence of technology in everyday life has had both positive and negative effects on our wellbeing. Technology can have a positive impact when used to increase efficiency in tasks like communication and organization, leading to less time spent on mundane activities and more time to pursue other aspects of life. However, when technology is used to replace physical activities such as exercise or an appreciation of nature, it can lead to lack of motivation, fatigue and a decrease in physical health.","priority":870}
+{"prompt":"Find a recipe for an easy, healthy dinner","priority":871}
+{"prompt":"Compose a rap that includes the given line. \"Don't give up, there's hope\"","priority":879}
+{"prompt":"Please create a list of five strong verbs in English.","priority":880}
+{"prompt":"What is the estimated value of the company's stock at the end of the year? The company's stock has grown from $50 to $80 over the course of the year.","priority":884}
+{"prompt":"What is the most common shopping cart abandonment reason?","priority":884}
+{"prompt":"Describe how artificial intelligence is transforming the education sector.","priority":886}
+{"prompt":"Generate a rap about dreams.","priority":889}
+{"prompt":"Calculate the average word length in the given text. The genealogy of morality by Friedrich Nietzsche is a great book to start exploring the origins of morality.","priority":889}
+{"prompt":"Imagine a situation and write a paragraph of how to solve it. You arrive at a party and you know nobody.","priority":893}
+{"prompt":"Interpret the following statement: \u201cAll work and no play makes Jack a dull boy.\u201d","priority":893}
+{"prompt":"Add 5px to each of the current margin values. margin-left: 20px; margin-top: 30px;","priority":896}
+{"prompt":"Generate a regular expression that can match strings of any length consisting of only the letters a,b and c","priority":897}
+{"prompt":"Compare and contrast two characters in the movie The Avengers. Captain America and Iron Man","priority":897}
+{"prompt":"Think of a metaphor to explain what \"prosperity\" means.","priority":899}
+{"prompt":"Give a three-word description for the following object. A guitar","priority":901}
+{"prompt":"Given a sentence, suggest a different word order that changes the meaning or emphasis of the sentence. Money can buy happiness.","priority":905}
+{"prompt":"Paraphrase the following sentence: \"I can't believe how quickly the year has flown by.\"","priority":907}
+{"prompt":"Identify the two colors that make up the American flag.","priority":908}
+{"prompt":"Name the four musketeers.","priority":910}
+{"prompt":"Develop a business plan to start a new restaurant.","priority":911}
+{"prompt":"Identify 5 key parameters that should be considered when constructing a deep learning system.","priority":912}
+{"prompt":"Identify a way in which technology has changed society.","priority":918}
+{"prompt":"Classify the following sentence into a particular category: \"Yesterday morning he stopped eating meat\".","priority":918}
+{"prompt":"From the following sentence generate a question that can be answered in one sentence The world has already warmed by 1.1 degree Celsius since pre-industrial times.","priority":922}
+{"prompt":"Upload a document to a website. Website URL: http:\/\/example.com","priority":928}
+{"prompt":"In the given example, generate a new, syntactically correct sentence. I went to the store, and bought some orange.","priority":931}
+{"prompt":"Rewrite the sentence \"Love is blind\"","priority":931}
+{"prompt":"Given a song, come up with five original lyrics. Song: \u201cChandelier\u201d by Sia","priority":932}
+{"prompt":"Create an example of a data visualization chart to express the given data. Population of China in 2020 is 1,439,323,776.","priority":937}
+{"prompt":"Imagine you are building a game that has 3 levels. Describe the difficulty level and game progress for each level.","priority":940}
+{"prompt":"Edit the following text by reorganizing the sentences. I am relaxed tonight. A warm bath helps me relax. I enjoy the quiet.","priority":941}
+{"prompt":"Given a sentence, add a phrase that indicates past event. I decided to take the exam","priority":942}
+{"prompt":"Create a game where a player has to catch fruits with their mouth","priority":944}
+{"prompt":"Output a conversation between two people at a job interview.","priority":944}
+{"prompt":"Generate a list of 3-5 interview questions that are relevant to a project manager position.","priority":951}
+{"prompt":"Classify the given sentence \"The blue cat meowed\" The blue cat meowed","priority":952}
+{"prompt":"How can we improve the performance of a linear regression model?","priority":959}
+{"prompt":"Name five women who have made significant contributions to science.","priority":960}
+{"prompt":"Summarize the main idea in the passage:\n\n\"The election of Joe Biden as the 46th President of the United States marked a significant moment in American history. This monumental victory brought a sense of relief to a nation that has experienced immense turmoil and anxiety throughout the past few years. It also promised a restoration of diplomatic ties, racial justice, and a renewed commitment to diversity and inclusion that was severely lacking beforehand.\"","priority":960}
+{"prompt":"Analyze the themes in this movie: Star Wars.","priority":960}
+{"prompt":"Name a type of fruit that is red.","priority":962}
+{"prompt":"Describe the architexture of a web application.","priority":964}
+{"prompt":"Write a job description Marketing Manager","priority":965}
+{"prompt":"Compose a sentence describing the argument of a recent article The article is entitled \"Does Digital Technology Really Make us Happier?\".","priority":970}
+{"prompt":"Write a short story involving a time machine.","priority":973}
+{"prompt":"Construct a survey question about people\u2019s opinion on the environment.","priority":973}
+{"prompt":"Which of these is the correct definition of a node? A) A point in a network where lines or pathways intersect \nB) A device used to store and transmit data\nC) A way to connect two computers to each other","priority":977}
+{"prompt":"Describe the differences between machine and deep learning","priority":978}
+{"prompt":"Generate a title for the article given the following text. Scientists have found a new species of plant living in the high mountains of South America.","priority":980}
+{"prompt":"Summarize the following four sentences in two sentences. The cat is lying on the couch. It is sleeping soundly. The sun is shining through the window. There is a gentle breeze in the room.","priority":981}
+{"prompt":"Given three numbers (x, y, z), find the greatest common factor. 2, 4, 8","priority":985}
+{"prompt":"State the chemical equation for photosynthesis.","priority":988}
+{"prompt":"Write a script to query a database. Database Information: Database containing user information","priority":989}
+{"prompt":"Describe a product for its website. Name: Fujitsu ScanSnap IX1500","priority":991}
+{"prompt":"What does a DNS server do?","priority":991}
+{"prompt":"Give an example of a salty food item","priority":991}
+{"prompt":"Provide an example of a situation where a barrier to entry prevents competition.","priority":994}
+{"prompt":"Rearrange given instructions in order to optimize a given process. Take prints of documents > Submit documents > Scan documents","priority":995}
+{"prompt":"Name all the red fruits that can be eaten raw.","priority":1001}
+{"prompt":"Name 3 things a software engineer should know.","priority":1002}
+{"prompt":"Give me a recipe that uses chocolate and hazelnuts.","priority":1003}
+{"prompt":"Given a statement, write a rhetorical question that can be used to challenge the statement. Everyone should wear a face mask in public.","priority":1003}
+{"prompt":"Rewrite this sentence: \"A wicked man saved by his courage\" A wicked man saved by his courage","priority":1004}
+{"prompt":"What advantages or disadvantages of an artificial neural network in terms of scalability?","priority":1006}
+{"prompt":"Classify this sentence as a statement, question, command, or exclamation? What is the capital of California?","priority":1008}
+{"prompt":"Design a new homepage for the company website. Company Name: ABC Industries\nCompany Tagline: Delivering Excellence in Technology\nCompany Logo: Attached","priority":1015}
+{"prompt":"Generate a list of tips to make a presentation more engaging.","priority":1024}
+{"prompt":"Name four steps to combat climate change.","priority":1027}
+{"prompt":"Create a sentence that expresses the feeling of excitement.","priority":1028}
+{"prompt":"Rewrite this website copy to improve it for SEO. Our company sells handmade, one-of-a-kind gifts perfect for any occasion.","priority":1028}
+{"prompt":"Select and sort the following numbers from largest to smallest. 9.6, -13.4, 0","priority":1029}
+{"prompt":"Design a software program that auto completes data entry on a form.","priority":1029}
+{"prompt":"What is a good example of a real-time application?","priority":1030}
+{"prompt":"Describe how a computer vision based application could be used in medicine","priority":1034}
+{"prompt":"Create a review of a movie that you recently watched, based on the input. The movie is \"The Greatest Showman\", starring Hugh Jackman .","priority":1034}
+{"prompt":"Generate a list of 10 most influential people in the history of computer science.","priority":1034}
+{"prompt":"Describe the economic benefits of providing free healthcare.","priority":1036}
+{"prompt":"Describe an example of a competitive strategy","priority":1038}
+{"prompt":"Create a job description for an experienced accountant","priority":1038}
+{"prompt":"Estimate the number of minutes it would take to read the given text. The industrial revolution marked a major turning point in history; almost every aspect of daily life was influenced in some way.","priority":1038}
+{"prompt":"Create a fact sheet about AI.","priority":1042}
+{"prompt":"Generate a suggestion for the title of a new song","priority":1046}
+{"prompt":"Create a story where the main character overcomes an overwhelming obstacle.","priority":1046}
+{"prompt":"Suggest a few topics for creating a story.","priority":1047}
+{"prompt":"Summarize the battle between U.S. and British forces during the War of 1812.","priority":1047}
+{"prompt":"Remove the verb 'run' from the sentence, \"I run to the store every Saturday.\" I run to the store every Saturday.","priority":1049}
+{"prompt":"Given a year, list four major events that happened during that year. 1995","priority":1059}
+{"prompt":"What is the purpose of the keyWord argument in the Python sorted() function?","priority":1061}
+{"prompt":"Explain how hydrogen fuel cells work in 2-3 sentences.","priority":1062}
+{"prompt":"Generate a biological description of a black widow spider.","priority":1063}
+{"prompt":"Calculate the average acceleration of an object that moves from a speed of 45m\/s to 69m\/s in 6 seconds.","priority":1063}
+{"prompt":"Construct a quiz question designed to test knowledge of the US Constitution","priority":1065}
+{"prompt":"Create a book cover for a fiction novel. Genre: Fantasy","priority":1070}
+{"prompt":"List five factors that lead to global warming.","priority":1070}
+{"prompt":"Generate an email introducing the company Company Name: ABC Ltd","priority":1073}
+{"prompt":"What is the significance of the First Amendment in the US Constitution?","priority":1077}
+{"prompt":"Write a personal ad for a character searching for a life partner. an adventurous astronomer","priority":1080}
+{"prompt":"What is the main benefit of using artificial neural networks?","priority":1081}
+{"prompt":"Categorize this article according to the topic. The following article is about the use of crowdfunding for small businesses.","priority":1081}
+{"prompt":"Find the difference between 55\u00b0F and -5\u00b0F.","priority":1082}
+{"prompt":"Describe the role that electricity plays in modern society","priority":1083}
+{"prompt":"Create a css style to make the following text italicized. The cat meowed.","priority":1085}
+{"prompt":"Create an algorithm for finding the difference between two large numbers. 325678 and 835716","priority":1087}
+{"prompt":"Describe the impact of the internet on the job market in the past 10 years","priority":1091}
+{"prompt":"Write a Morse code for the following sentence: I am learning to send a message.","priority":1097}
+{"prompt":"Explain the significance of the line from Shakespeare's Macbeth - \"Double, double toil and trouble\"","priority":1099}
+{"prompt":"Define what artificial intelligence means in one sentence.","priority":1099}
+{"prompt":"Describe the Earth's climate system.","priority":1102}
+{"prompt":"Design an algorithm to detect malicious content in texts.","priority":1103}
+{"prompt":"Take the given speech and make it more formal. Hey everyone, it's great to see you all here today. We need to discuss budget cuts for the new fiscal year.","priority":1104}
+{"prompt":"Transform the following HTML into valid CSS. <h1 style=\"font-family:sans-serif; font-size:1.3em; color: red;\">Welcome to my page<\/h1>","priority":1105}
+{"prompt":"How could you start a conversation with a stranger?","priority":1105}
+{"prompt":"Rewrite the sentence in the interrogative form: \"He is an engineer.\"","priority":1106}
+{"prompt":"Describe the scenery of a rainforest in the tropical region.","priority":1107}
+{"prompt":"What is a Turing Machine?","priority":1109}
+{"prompt":"Suggest two potential topics for a persuasive essay.","priority":1112}
+{"prompt":"Edit the given sentence by removing all unnecessary words. The important fact is that the meeting starts at 3pm","priority":1113}
+{"prompt":"Create a logo for a summer camp focused on photography.","priority":1116}
+{"prompt":"Classify the following triangle as either acute, right, or obtuse. The angle measures are 36 degrees, 54 degrees, and 90 degrees.","priority":1116}
+{"prompt":"Describe the main characteristics of a baroque style of painting","priority":1117}
+{"prompt":"Combine the two following sentences using either a conjunction or a relative pronoun. The cat was meowing for food. The sound was very loud.","priority":1118}
+{"prompt":"Generate the script of a dialogue between two characters with the following situation. John and Sarah are discussing their plans for the weekend","priority":1120}
+{"prompt":"Name five educational websites.","priority":1121}
+{"prompt":"Create a design for the given text snippet. United We Stand","priority":1123}
+{"prompt":"Generate a summary of a recent news article in less than 100 words. https:\/\/www.cnn.com\/2021\/04\/08\/us\/texas-blackouts-energy-spike\/index.html","priority":1125}
+{"prompt":"Develop a plan for the use of a new software. Software: Customer Service Ticket System","priority":1127}
+{"prompt":"Based on the given data set, write a research paper that discusses the purpose of the data set, trends, and analysis The data set contains information about the number of Covid-19 cases in the United States by state from 2020-2021.","priority":1129}
+{"prompt":"Tell me a riddle in the form of a question.","priority":1129}
+{"prompt":"Rewrite this sentence to make it more concise: Scientists have found evidence indicating that the extinction of dinosaurs might have been due to a comet striking the Earth.","priority":1130}
+{"prompt":"Create a new word using the root word \u201caug\u201d.","priority":1130}
+{"prompt":"Create an art project based on the given topic. The effects of climate change","priority":1131}
+{"prompt":"Generate a random number from 1 to 10.","priority":1131}
+{"prompt":"List three potential consequences of not addressing global warming in the short term.","priority":1134}
+{"prompt":"Compose a poem of 10 lines in the style of a Haiku.","priority":1135}
+{"prompt":"Modify the following sentence to include a specific company or product. The product is an affordable solution for small businesses.","priority":1140}
+{"prompt":"Write a resume objective. Recent college graduate seeking IT position.","priority":1141}
+{"prompt":"Write a prologue for a fanfiction about superheroes.","priority":1147}
+{"prompt":"Click on the correct option. Which of the following food items contains the most sugar?\nA. Apple\nB. Orange\nC. Chocolate","priority":1147}
+{"prompt":"Write a list of actionable items that a sales team can use to increase their sales.","priority":1149}
+{"prompt":"Design an algorithm to reverse the elements of a given array. [2, 4, 6, 8]","priority":1150}
+{"prompt":"Translate the phrase \"bon voyage\" into Spanish.","priority":1153}
+{"prompt":"Write an opinion essay about puppies.","priority":1153}
+{"prompt":"Summarize the dietary benefits of adding blueberries to a diet","priority":1155}
+{"prompt":"Generate a password which is secure, easy to remember and has a minimum length of 8 characters.","priority":1158}
+{"prompt":"Identify the figure of speech used in the phrase \"An apple a day keeps the doctor away.\"","priority":1159}
+{"prompt":"Edit the sentence to use the correct spelling and grammar. He have to go to the store","priority":1159}
+{"prompt":"Re-frame the following sentence: \"I can't bear the heat.\"","priority":1159}
+{"prompt":"Think of a creative way to use augmented reality.","priority":1160}
+{"prompt":"Create a definition of the following word. Output the definition. Flux","priority":1160}
+{"prompt":"Find the most similar historic event to World War II.","priority":1162}
+{"prompt":"Given the input, explain why revenge is considered a negative emotion.","priority":1162}
+{"prompt":"Explain how climate change is impacting the Arctic.","priority":1165}
+{"prompt":"Find the type of verb used in the sentence: \"He enjoyed eating pizza\". He enjoyed eating pizza","priority":1168}
+{"prompt":"Resolve the issue described in the following ticket My internet is not working and I have no idea why.","priority":1168}
+{"prompt":"List five potential stakeholders that could be involved in the design of a new regional park.","priority":1170}
+{"prompt":"Find out the name and the origin of the dish called 'Hopper'","priority":1172}
+{"prompt":"Explain the process of content-based filtering.","priority":1174}
+{"prompt":"Name a legendary queen","priority":1174}
+{"prompt":"Explain the value of a \"growth mindset\".","priority":1181}
+{"prompt":"Suggest a new re-branding strategy for the following company. Company: ABC Technologies","priority":1183}
+{"prompt":"Describe a given figure in detail. Figure: A ram","priority":1184}
+{"prompt":"Generate a new sentence that makes sense grammatically and logically.","priority":1185}
+{"prompt":"Convert the given text in the input to a JSON format. This is a string of text","priority":1186}
+{"prompt":"Complete the story beginning with the given line. He opened his eyes and","priority":1186}
+{"prompt":"Create a timeline of the most important events in the history of modern dance","priority":1189}
+{"prompt":"Answer the following question on the structure of the atom. What is the basic structure of an atom?","priority":1190}
+{"prompt":"Develop an algorithm that can recognize handwriting.","priority":1194}
+{"prompt":"Identify the differences between laptops and desktop computers.","priority":1195}
+{"prompt":"Edit the sentence to describe the emotion of the people. The people in the park were pleased.","priority":1195}
+{"prompt":"Describe the process of launching a competitive analysis","priority":1196}
+{"prompt":"Build an easy recipe for a healthy breakfast.","priority":1196}
+{"prompt":"Determine which dataset is more useful Option A - Patient survey results\nOption B - Patient medical records","priority":1197}
+{"prompt":"Calculate the sum of 1, 4, and 9.","priority":1201}
+{"prompt":"Suggest a place for a romantic dinner","priority":1203}
+{"prompt":"Name one movie that has won an Oscar.","priority":1210}
+{"prompt":"Generate 3 blog topic ideas based on the keyword \u201cweb automation\u201d","priority":1212}
+{"prompt":"Explain the \"80\/20 rule\"","priority":1212}
+{"prompt":"Suggest which pizza topping would go best with a savory pie.","priority":1215}
+{"prompt":"Describe the main character of this story in one sentence. Jessie is a shy and timid 15- year-old girl who loves to read and write stories.","priority":1218}
+{"prompt":"Given the input, name the movie. A young Severus Snape attending Hogwarts","priority":1219}
+{"prompt":"What is the capital city of the Dominican Republic?","priority":1220}
+{"prompt":"Generate a headline for an article about a new app called 'Dog Walker'.","priority":1225}
+{"prompt":"Compare and contrast two web hosting providers and suggest the best option. DigitalOcean and Linode","priority":1226}
+{"prompt":"Cite three references for the given topic. Online Shopping","priority":1226}
+{"prompt":"Explain why one should save money.","priority":1227}
+{"prompt":"Generate a story about an astronaut visiting the moon. \"<noinput>\"","priority":1228}
+{"prompt":"Read the following passage and determine the most appropriate title. The effects of climate change are becoming increasingly evident and could have significant impacts on people and nature.","priority":1229}
+{"prompt":"Construct a flow chart for a process. Completing a survey","priority":1235}
+{"prompt":"Determine the surface area of a square prism with sides of length 4, 6, and 8.","priority":1235}
+{"prompt":"Check if this mathematical expression is correct: 4x - 6 = 8","priority":1235}
+{"prompt":"Classify the relationship between John and Mary. John and Mary are siblings.","priority":1236}
+{"prompt":"Generate a story about a person going on a journey to find a dragon","priority":1236}
+{"prompt":"Write a function to validate an email address.","priority":1239}
+{"prompt":"Write a sentence using the words 'ball', 'tree', and 'pigeon'.","priority":1239}
+{"prompt":"Explain why wild animals should not be kept as pets.","priority":1241}
+{"prompt":"Calculate the area of a triangle given two sides and the angle between them. Side 1 = 6, Side 2 = 8, Angle = 30\u00b0","priority":1243}
+{"prompt":"Identify the prime suspect in the following murder case The police have obtained video evidence showing a person entering the victim's house with a knife and leaving shortly thereafter","priority":1243}
+{"prompt":"Describe the difference between supervised and unsupervised learning.","priority":1244}
+{"prompt":"Identify a simile in this sentence His mind is like a computer","priority":1250}
+{"prompt":"Generate a story(less than 100 words) on the given input. A robotic fish","priority":1251}
+{"prompt":"Explain why it is important to pay attention to the news.","priority":1253}
+{"prompt":"Explain why trees are important in our environment.","priority":1253}
+{"prompt":"Given a simple scenario, you need to identify the different characters in the situation. A family of four was sitting together at the dinner table.","priority":1254}
+{"prompt":"Generate a list of 3 safety tips for using public transportation","priority":1255}
+{"prompt":"Rank the given list of animals from the smallest to largest based on average weight. octopus, wolf, deer, rhinoceros","priority":1255}
+{"prompt":"Create a sequence of instructions for setting up a home studio.","priority":1256}
+{"prompt":"Insert appropriate punctuation for this sentence. I love programming and music","priority":1256}
+{"prompt":"List the names of the three states that share borders with Colorado.","priority":1257}
+{"prompt":"Describe coral reefs in three sentences.","priority":1259}
+{"prompt":"What is the most suitable technology for the given business task? The company needs a technology to automate order creating and invoicing processes.","priority":1259}
+{"prompt":"Develop a recipe for chocolate chip pancakes.","priority":1261}
+{"prompt":"Determine the name of the British royal family.","priority":1269}
+{"prompt":"Give an example of a job that a computer can do better than a human being.","priority":1272}
+{"prompt":"Name a network protocol.","priority":1273}
+{"prompt":"Generate a multiple choice question from this sentence. The Grand Canyon is one of the greatest attractions in Arizona.","priority":1278}
+{"prompt":"Name the species of this mammal. The whale has a flat, paddle-shaped tail thatsometimes grows up to 8 meters long.","priority":1285}
+{"prompt":"Create 3 unique words that have the same meanings.","priority":1291}
+{"prompt":"Given a set of sentences, decide which one contains the most facts. Sentence 1: Life is filled with joy and sorrow.\nSentence 2: The sky is blue.","priority":1292}
+{"prompt":"Complete the following dialogue with an appropriate greeting Hello,","priority":1292}
+{"prompt":"Classify the following sentence as either positive or negative.\n\nShe's a bad influence. She's a bad influence.","priority":1294}
+{"prompt":"Compress the sentence by eliminating unnecessary words, and make it as short as possible. I have been studying English literature for the last three years.","priority":1295}
+{"prompt":"Answer the question \"What is the main point of the text?\". Humans have long been aware of the impacts of climate change. However, recent research has suggested that the effects of climate change could be much more severe than previously thought.","priority":1296}
+{"prompt":"Offer an alternative solution. The customer wants to buy a laptop but has limited budget","priority":1300}
+{"prompt":"What type of number is -625?","priority":1307}
+{"prompt":"Classify a given object into the appropriate category. Crocodile","priority":1307}
+{"prompt":"Given a news article, create a headline that captures its main idea. The new bill proposed by Senator Smith aims to provide free healthcare to all Americans.","priority":1307}
+{"prompt":"When is the best time of day to exercise?","priority":1315}
+{"prompt":"Compare and contrast website design and web development.","priority":1318}
+{"prompt":"Design a room that follows the given style. Vintage style.","priority":1319}
+{"prompt":"Come up with advice for someone who has just started a new job","priority":1319}
+{"prompt":"Append the following statement with a realistic example of an artificial intelligence technology.","priority":1326}
+{"prompt":"Create a rewriting of the sentence using the same meaning. She was excited to finally arrive at the destination.","priority":1327}
+{"prompt":"Make a list of 5 items Items for an emergency kit","priority":1329}
+{"prompt":"Write a paragraph summarizing the character of Ralph in the novel Lord of the Flies","priority":1330}
+{"prompt":"Convert the number 22,000 to words. 22,000","priority":1331}
+{"prompt":"Analyze the text and determine if it is positive or negative. The new science project was far too difficult for the students.","priority":1331}
+{"prompt":"Create an example budget for a family income of $30,000 per year.","priority":1340}
+{"prompt":"Generate a list of 10 items that someone living in a desert climate should have in their emergency kit.","priority":1348}
+{"prompt":"Determine the chemical equation for the reaction between Carbon dioxide and water","priority":1351}
+{"prompt":"Find the average of the following numbers: 8, 4, 14, 5.","priority":1351}
+{"prompt":"Categorize the following phrase as happy, sad, or neutral. I am feeling sick.","priority":1354}
+{"prompt":"Design a data structure for storing a company's employee records.","priority":1355}
+{"prompt":"Use a robotic arm to pick up a specific item and move it to a specific location. The item is a blue pen. The location is a nearby desk.","priority":1359}
+{"prompt":"Choose the appropriate article for each adjective in the sentence: The salesman was very unprofessional.","priority":1359}
+{"prompt":"Is the following statement an oxymoron? a serious joke","priority":1360}
+{"prompt":"Generate a novel story idea.","priority":1360}
+{"prompt":"Generate a sentence that uses the words \"desolate\" and \"foggy\".","priority":1362}
+{"prompt":"Determine the correct definition of the given word. Abundant","priority":1366}
+{"prompt":"Suggest five different activities to enjoy during a camping trip.","priority":1369}
+{"prompt":"Design a new logo for a company that sells sustainable products.","priority":1373}
+{"prompt":"What are the different roles of a bank?","priority":1376}
+{"prompt":"Come up with a headline that captures the main point of the following news article. University of Colorado launches an initiative to increase diversity on campus.","priority":1378}
+{"prompt":"Create an analogy that shows how the legal system works","priority":1378}
+{"prompt":"Generate a story that includes a stingray, a lion and a parrot.","priority":1384}
+{"prompt":"Arrange these three words in alphabetic order Cat, Banana, Apple","priority":1388}
+{"prompt":"Edit the text given to make the story flow better and improve the grammar. Children all love the colorful stained glass that seem to cast a glaring light making them feel like they were living in a fantasy world","priority":1390}
+{"prompt":"Produce the below square matrix from the given list. [1,7,8,9]","priority":1391}
+{"prompt":"Write a 5-line script for an engaging conversation","priority":1391}
+{"prompt":"Describe the given painting in 20 words or less. <a link to a painting>","priority":1392}
+{"prompt":"Create a budget of $200 for a week's worth of groceries","priority":1393}
+{"prompt":"Form a sentence using a singular noun, verb, and adverb.","priority":1399}
+{"prompt":"Insert a sentence of three clauses at the beginning of the text that provides context to the topic. This text is about the history of coffee.","priority":1399}
+{"prompt":"Create a headline for this article: \"The rise of online shopping during the pandemic.\"","priority":1403}
+{"prompt":"Give me a list of fruits and vegetables that are in season during Spring.","priority":1403}
+{"prompt":"Convert the message into a secret code. The meeting has been moved to 10 o'clock","priority":1406}
+{"prompt":"Design an algorithm for the closest pair problem.","priority":1409}
+{"prompt":"Create a list of five items contained in a first aid kit.","priority":1409}
+{"prompt":"Identify 3 potential marketing channels for a new online business.","priority":1414}
+{"prompt":"Create a short story of your own in 200 words featuring the following words: \"plate\" and \"proud\".","priority":1416}
+{"prompt":"Reformat the following sentence to make it succinct:\n\nThe car which was in the parking lot put too much dirt on the street when it sped away.","priority":1416}
+{"prompt":"Find the third largest city in Canada.","priority":1416}
+{"prompt":"How did the discoveries of Copernicus challenge the traditional view of the universe?","priority":1423}
+{"prompt":"Give five examples of media bias","priority":1425}
+{"prompt":"Sing a song about waking up.","priority":1431}
+{"prompt":"Construct a query to retrieve the GDP of the United Kingdom from a given database.","priority":1434}
+{"prompt":"What does the phrase \"turning a blind eye\" mean?","priority":1434}
+{"prompt":"Compare two websites based on the given information. Website A:\nDesign: Intuitive\nPerformance: Fast\nWebsite B:\nDesign: Cluttered\nPerformance: Slow","priority":1436}
+{"prompt":"List three possible strategies to deal with depression.","priority":1438}
+{"prompt":"Summarize your last holiday in two sentences.","priority":1439}
+{"prompt":"Rewrite this sentence using formal language: \u201cGonna buy a new phone.\u201d","priority":1439}
+{"prompt":"Explain why the following statement is true. A successful sales pitch should engage the potential buyer.","priority":1439}
+{"prompt":"Create an algorithm to determine the middle element of a linked list.","priority":1443}
+{"prompt":"Provide a step-by-step guide to create a GPT-3 model.","priority":1448}
+{"prompt":"Given a dataset, predict the sales of product X in the next 5 years A dataset containing product prices and sales trends over the past 10 years","priority":1452}
+{"prompt":"Research and provide four examples of oxymorons.","priority":1453}
+{"prompt":"Compile a program in Python. program.py\ndef add_two_numbers(a, b):\n    return a + b","priority":1459}
+{"prompt":"Generate an appropriate cover letter for the following job. We're looking for a Front-End Software Engineer with experience in React.","priority":1460}
+{"prompt":"Generate a short (1-2 sentences) dialogue in response to the following prompt. \u201cLet\u2019s go out for a drive.\u201d","priority":1461}
+{"prompt":"Compare the following services and categorize them: Dropbox, Google Drive, OneDrive","priority":1462}
+{"prompt":"Describe what you might find on the planet Mars.","priority":1471}
+{"prompt":"Spell out the phrase 'artificial intelligence'","priority":1476}
+{"prompt":"Compare and contrast the differences between affordable healthcare systems in Canada and the United States","priority":1484}
+{"prompt":"Explain the concept of \"political landscapes\".","priority":1484}
+{"prompt":"Outline strategies for reducing air pollution.","priority":1486}
+{"prompt":"Summarize the book 'The Red Badge of Courage'.","priority":1487}
+{"prompt":"What is the general process of writing code?","priority":1487}
+{"prompt":"Edit the following sentence as required: \"The great pyramid is one of the greatest wonder of the world.\"","priority":1488}
+{"prompt":"Create a funny storytelling tweet in less than 280 characters","priority":1489}
+{"prompt":"Describe two types of wireless mice.","priority":1491}
+{"prompt":"Name a famous scientist and their main achievement","priority":1491}
+{"prompt":"Construct an argument against the following statement: \"Everyone should get eight hours of sleep every night\u201d","priority":1496}
+{"prompt":"Generate five positive affirmations","priority":1497}
+{"prompt":"Describe the process for getting a driver's license in Canada.","priority":1498}
+{"prompt":"Name two advantages of machine learning over traditional programming.","priority":1500}
+{"prompt":"Write a SQL query to return the latest order placed by each customer.","priority":1504}
+{"prompt":"Guess the missing words in the following sentence: As the pandemic ____, the need for a vaccine has become increasingly ____.","priority":1505}
+{"prompt":"Using the text you wrote, create a headline for the blog post. Virtual reality is quickly becoming one of the most important emerging technologies in today\u2019s world. It has a wide range of potential applications, from business to education to entertainment. VR is already changing the way we shop, learn, and work, and its potential is only just beginning to be realized.","priority":1505}
+{"prompt":"Synthesize a sentence that includes the words \"policy\", \"advantage\", and \"technology\".","priority":1508}
+{"prompt":"Edit the following sentence to make it concise.\n\nI went to the store for the purpose of buying flour.","priority":1511}
+{"prompt":"Identify two ways technology is changing the marketing industry.","priority":1512}
+{"prompt":"Make an inference about the following text. The car had just been washed and the sun shone brightly on its shiny surfaces.","priority":1515}
+{"prompt":"Find the most recommended restaurant in the city Las Vegas","priority":1515}
+{"prompt":"Categorize the following superhero movie. The Avengers","priority":1516}
+{"prompt":"Identify the tone of the following sentence: \"Time is a valuable asset, so use it wisely\".","priority":1521}
+{"prompt":"Create a poem from the following words: sunset, mask, distant","priority":1522}
+{"prompt":"Generate insight from the following data and generate a short summary. | Vehicle | Cost | Mileage |\n|--------|------|--------|\n| Ferrari F8 | $421,632 | 15mpg |\n| Tesla Model S | $94,990 | 95mpg |\n| BMW M5 | $112,995 | 18mpg |","priority":1526}
+{"prompt":"Create a slideshow to present a given topic. Robotics","priority":1529}
+{"prompt":"Review this restaurant and give a rating out of 5 stars. I visited Eddy's Seafood Grill last night and had a fantastic meal.","priority":1530}
+{"prompt":"Provide an example of a past participle verb.","priority":1532}
+{"prompt":"Given a sentence with a missing word, supply the word that best fits. She was_____ at the results.","priority":1535}
+{"prompt":"Categorize the following article as fact, opinion, or neither. Mount Everest is the highest peak in the world.","priority":1537}
+{"prompt":"Compare and contrast the different characteristics of the two given products. Products: iPhone 8 and iPhone 10","priority":1538}
+{"prompt":"Generate a list of chemical elements.","priority":1540}
+{"prompt":"Choose the most appropriate synonym to this phrase: disbelief","priority":1540}
+{"prompt":"Create a story of a child who is afraid of the dark","priority":1540}
+{"prompt":"List the different forms of energy.","priority":1543}
+{"prompt":"Create a plan for a virtual hangout session between friends.","priority":1547}
+{"prompt":"Suggest some tips for effective time management.","priority":1551}
+{"prompt":"Given a sentence, add a relevant adverb that describes an opinion. The professor spoke.","priority":1552}
+{"prompt":"Given the code snippet, identify and fix any syntax error:\n\ndef findSum(a, b):\n    return a+b","priority":1553}
+{"prompt":"Given two numbers, write a python code to calculate their sum. x = 7\ny = 4","priority":1554}
+{"prompt":"Name four types of plants in a desert biome","priority":1558}
+{"prompt":"Generate an appropriate headline Scientists discover link between air pollution and heart health","priority":1558}
+{"prompt":"Make up a story about a day in the life of someone. Sue is a 20-year-old student.","priority":1562}
+{"prompt":"Translate this sentence into French. The sun is shining brightly.","priority":1564}
+{"prompt":"Edit the text to deliver a more positive message. The news was really bad and it made me feel terrible.","priority":1569}
+{"prompt":"Find the irregular verb in the sentence and write its past tense form. She swims every day.","priority":1570}
+{"prompt":"Demonstrate how to use XOR operator in Python.","priority":1571}
+{"prompt":"Can you illustrate the concept of a 'cause and effect' relationship?","priority":1579}
+{"prompt":"What is the principle of the conservation of energy?","priority":1586}
+{"prompt":"Describe the process of making a paper airplane.","priority":1588}
+{"prompt":"Generate a few suggestions to improve the local park.","priority":1608}
+{"prompt":"Provide five ethical considerations for data collection.","priority":1609}
+{"prompt":"From the list below, find all unique integers. [3.14, 6, 2, 8, 9, 8, 2]","priority":1610}
+{"prompt":"Create a step-by-step guide to implementing the following task. Creating an effective onboarding process for new employees","priority":1613}
+{"prompt":"Rewrite the sentence to include an adjective that is appropriate for the situation. John went to the store.","priority":1614}
+{"prompt":"Output some commonly used phrases in English which are associated with the word \"sweet\".","priority":1618}
+{"prompt":"Rewrite the sentence without using a common verb-ed adjective. The discarded papers on the ground looked crumpled.","priority":1619}
+{"prompt":"Report the current temperature in Dubai.","priority":1619}
+{"prompt":"Select a prompt from the following list and provide an appropriate input. Prompt: \"Imagine a surprise party you attended.\"","priority":1622}
+{"prompt":"List three advantages and three disadvantages of using AI for customer service.","priority":1632}
+{"prompt":"Name 5 healthy fruits","priority":1636}
+{"prompt":"Write a sentence expressing surprise.","priority":1639}
+{"prompt":"Explain quantum computing in one sentence","priority":1644}
+{"prompt":"Give an example of a situation where someone used their creativity to solve a problem","priority":1646}
+{"prompt":"Give two good examples of customer service.","priority":1647}
+{"prompt":"Given the following input, list at least three characteristics that differentiate cats from dogs.","priority":1658}
+{"prompt":"Describe the benefits of attending a virtual conference.","priority":1669}
+{"prompt":"Create a regular expression to find all words with three consonants and one vowel","priority":1674}
+{"prompt":"Take the given sentence and sort its words in alphabetical order. Sentence: The world is a beautiful place","priority":1676}
+{"prompt":"Create a Twitter bio for a fictionalized character who has the superpower of flight","priority":1678}
+{"prompt":"Make up a sentence that includes a given simile. Simile: \"as slippery as an eel\"","priority":1679}
+{"prompt":"Given the instructions, classify the type of crime. The defendant unlawfully entered the premises.","priority":1684}
+{"prompt":"Translate English text to French. The sun was shining brightly in the sky.","priority":1689}
+{"prompt":"How does culture influence a person's identity?","priority":1690}
+{"prompt":"Write one paragraph to explain why programmers should use functions.","priority":1691}
+{"prompt":"Find the synonyms to the word \"hasty\".","priority":1697}
+{"prompt":"What color best represent the feeling of serenity?","priority":1710}
+{"prompt":"List five consecutive numbers starting from 10.","priority":1711}
+{"prompt":"Create a timeline of the American Revolutionary War from 1775 to 1783.","priority":1752}
+{"prompt":"Is the following sentence written in the active or passive voice? The sculpture was crafted by the artist.","priority":1755}
+{"prompt":"Generate a response to the following customer review\n\nThe customer service was really slow","priority":1756}
+{"prompt":"Describe another way to make coffee.","priority":1760}
+{"prompt":"Create a data structure appropriate for storing student records.","priority":1768}
+{"prompt":"Construct an analogy that compares the terms \u201cmaster\u201d and \u201cservant\u201d","priority":1775}
+{"prompt":"Evaluate a patient's health information and provide a diagnosis. Patient Name: John Doe\nAge: 18\nSymptoms: Headache, fever, body aches","priority":1777}
+{"prompt":"Count the number of words in the sentence \"I want to go for a walk\".","priority":1779}
+{"prompt":"What would be an appropriate penalty for public littering?","priority":1781}
+{"prompt":"Parse this query and output the boundaries for each clause and provide the type of clause it is. What are the top 10 most populous cities in the US","priority":1781}
+{"prompt":"Compare and contrast the health benefits of eating organic food vs non-organic food.","priority":1781}
+{"prompt":"How many books are in the Harry Potter series?","priority":1788}
+{"prompt":"What is the square root of 121?","priority":1801}
+{"prompt":"Write the hexadecimal code for the RGB color #9900FF","priority":1805}
+{"prompt":"Create a timeline illustrating the history of a certain item. The bicycle","priority":1807}
+{"prompt":"Update the customer's order status to \"Canceled\" Order Number: 1234\nOrder Status: Pending","priority":1813}
+{"prompt":"Provide a brief summary of the article below related to using computer vision for population health. Computer vision technology applied to population health is an emerging field with a potential to leverage machine learning algorithms, camera-equipped devices, and medical imaging to identify health risks in populations. For example, computer vision can be used to identify and aggregate physical traits, detect disease, and spot environmental hazards that lead to health risks across large populations.","priority":1814}
+{"prompt":"Find and explain the fallacy in the following argument. All birds can fly, so all mammals must be able to fly as well.","priority":1821}
+{"prompt":"Describe the portrait of King George III in one sentence noinput","priority":1834}
+{"prompt":"Generate a creative story based on the topic 'an adventure in a seaside town'.","priority":1850}
+{"prompt":"Compose a tone poem in 50 words or less.","priority":1852}
+{"prompt":"Describe a particular tool used in the given field. Data Visualization","priority":1859}
+{"prompt":"Rearrange the words in this sentence to form a more sophisticated sentence structure. It is expensive and time consuming","priority":1867}
+{"prompt":"Summarize the process for writing a research paper","priority":1870}
+{"prompt":"Reword the following sentence, preserving the same structure and meaning: I am very disappointed by your actions.","priority":1878}
+{"prompt":"Describe the various types of multimedia","priority":1887}
+{"prompt":"Write a blog post about why robots can be beneficial for the economy.","priority":1903}
+{"prompt":"Identify the type of the following sentence, whether it is a question, exclamation or a regular statement. Did you have a good time?","priority":1904}
+{"prompt":"List four techniques for data visualization.","priority":1905}
+{"prompt":"Compose a 2-line poem based on the following input The forest at dusk","priority":1935}
+{"prompt":"Create a story about a person walking in the park.","priority":1947}
+{"prompt":"Create an interesting math problem.","priority":1950}
+{"prompt":"Suggest a behavior that violates an unspoken workplace rule.","priority":1953}
+{"prompt":"Describe in detail the 3D printer challenges","priority":1953}
+{"prompt":"Explain why our company\u2019s product is superior to the competition.","priority":1966}
+{"prompt":"Read the following text and you need to detect the errors in punctuation and grammar. The man who was buying apples said \" I'm going to eat them all","priority":1970}
+{"prompt":"Paraphrase the following sentence without changing the meaning: He was foolish enough to cross the street without looking.","priority":1982}
+{"prompt":"Generate an example of an ethical system.","priority":1984}
+{"prompt":"Given a sentence, identify the punctuation marks present. The cat slept on the sofa!","priority":2002}
+{"prompt":"Generate a sentence that communicates admiration","priority":2020}
+{"prompt":"How many goals did Messi score in the 2019-2020 season?","priority":2095}
+{"prompt":"Rewrite the sentence in active voice: The study was written by Dr. Susan Smith.","priority":2095}
+{"prompt":"Connect three insights about customer satisfaction to explain why customer feedback is important.","priority":2118}
+{"prompt":"Describe a list of five movies based on a given genre Genre: Psychological Thriller","priority":2129}
+{"prompt":"Name three leading causes of blindness.","priority":2174}
+{"prompt":"Name three famous paintings by Pablo Picasso.","priority":2179}
+{"prompt":"Categorize the following sentence into informal or formal. It's gonna be a great day!","priority":2244}
+{"prompt":"Provide 3 new words and their definitions.","priority":2272}
+{"prompt":"Create a list of 5 trends in AI development.","priority":2277}
+{"prompt":"Given a text, suggest a potential headline for it. This text is about the effects of climate change on the environment.","priority":2284}
+{"prompt":"Take the given input and generate a valid phone number. 123-456-7890","priority":2366}
+{"prompt":"Describe the differences between Eastern and Western cultures.","priority":2374}
+{"prompt":"Reword this sentence so that it expresses the opposite meaning This is a very difficult task","priority":2395}
+{"prompt":"Generate five horror movie titles.","priority":2401}
+{"prompt":"Generate an article title that captures the essence of the following excerpt Social media has become a dominant force in both personal and professional settings.","priority":2452}
+{"prompt":"Generate a creative title for a paper about the ethical implications of using artificial intelligence for criminal justice.","priority":2506}
+{"prompt":"Given a description of a medical condition, create an appropriate medical diagnosis. Patient complains of severe abdominal pain and nausea.","priority":2623}
+{"prompt":"Generate a list of celebrities who appear in the movie \"The Maze Runner\".","priority":2865}
+{"prompt":"Based on the photo provided, give a detailed description. [photo of a car dealership]","priority":2880}
+{"prompt":"Calculate the total cost of an item that costs $50 and has a tax rate of 8%.","priority":2963}
+{"prompt":"Generate a list of 5 songs to play at a party.","priority":3198}
+{"prompt":"Create an array containing the first 10 prime numbers.","priority":3448}
+{"prompt":"Make a list of 5 items Items for an emergency kit","priority":3508}
+{"prompt":"Explain why plants are important for the environment.","priority":3781}
+{"prompt":"Write a procedure for creating a vegetable soup.","priority":4288}
+{"prompt":"Create a function that prints Hello World","priority":4760}
+{"prompt":"Describe the concept of \"user interface design\".","priority":5361}
+{"prompt":"Generation a new story that is inspired by the the following passage. Once upon a time, a brave knight named Galahad set out to find the legendary sword of power.","priority":5379}
+{"prompt":"List 4 features of a bicycle.","priority":10568}
+{"prompt":"Reword this sentence making it less redundant. I personally think that in my opinion...","priority":12800}
+{"prompt":"For a given array arr, write a program to sort the array in-place without using any sort function. arr = [5,7,3,9,10,1]","priority":12800}
+{"prompt":"Edit this sentence to make it more concise: The movie is long and it feels like it is going on forever. The movie is long and feels like it is never ending.","priority":12800}
+{"prompt":"Develop an original story with the topic \"home\".","priority":12800}
+{"prompt":"Brainstorm 3 potential topics for a research paper on artificial intelligence.","priority":12800}
+{"prompt":"Create a haiku about your favorite hobby.","priority":12800}
+{"prompt":"Classify the following utterance as 1) technical issue; 2) change and return I want to return the shoes I bought yesterday.","priority":12800}
+{"prompt":"Describe how two given concepts are related. Concepts: Evolution and Natural Selection","priority":12800}
+{"prompt":"Categorize this list of diseases into viral and bacterial. Influenza, Measles, Whooping Cough, Strept throat","priority":12800}
+{"prompt":"Collect a dataset of the given type. Complete list of universities in the United States","priority":12800}
+{"prompt":"Give an example of a place where an endangered species of animal might be found.","priority":12800}
+{"prompt":"Construct a mathematical equation for the following problem:\n\nAt a party, there are 3 types of food. Each type of food is served three times each. Guests can choose only 1 of each food serving. How many different combinations are there for the guests?","priority":12800}
+{"prompt":"Suggest how to solve this problem. I cannot find my car keys.","priority":12800}
+{"prompt":"Make a list of 5 materials that can be recycled.","priority":12800}
+{"prompt":"Create a plan to reduce stress on a daily basis.","priority":12800}
+{"prompt":"Generate a new design for a watch based on the given input. Graphic: A cartoon character","priority":12800}
+{"prompt":"Define an autoencoder in one sentence.","priority":12800}
+{"prompt":"Is it possible to reproduce a song on a synthesizer?","priority":12800}
+{"prompt":"Suggest a title for a story about a family's journey to a beach town.","priority":12800}
+{"prompt":"Given the following sentence, please insert the appropriate article: \"Jane went ____ to the store.\"","priority":12800}
+{"prompt":"How would you motivate a colleague to meet their deadline?","priority":12800}
+{"prompt":"Generate two similar sounding but semantically different words to contrast this word. Light","priority":12800}
+{"prompt":"Explain how a neural network can be used to recognize handwritten words.","priority":12800}
+{"prompt":"Name three countries in Europe whose population are over 50 million.","priority":12800}
+{"prompt":"Come up with a unique and catchy name for a new restaurant.","priority":12800}
+{"prompt":"Generate a new variation of the following line of poetry. The sky was filled with stars","priority":12800}
+{"prompt":"Assume you are presenting this statement to an audience. Rewrite it in a more persuasive way. Our company is offering great discounts on its products.","priority":12800}
+{"prompt":"Organize the following words into a meaningful sentence. tall life the in","priority":12800}
+{"prompt":"Come up with a metaphor for how I am feeling. Feeling: Tired and overwhelmed.","priority":12800}
+{"prompt":"Identify the type of sentence in this phrase It has been a long time","priority":12800}
