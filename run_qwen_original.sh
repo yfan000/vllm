@@ -1,9 +1,10 @@
 #!/bin/bash
 
 MODEL="deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
-DATASETS=("qwen_longwriter_1000_priority_original.jsonl")
+DATASETS=("qwen_longcot_1000_priority_original.jsonl")
 OUTLEN=12800
 NUM_PROMPTS=1000
+THRES=10000
 
 # Sweep spaces ↓ Modify freely
 REQUEST_RATES=("inf" "5" "10" "15" "20")
@@ -17,7 +18,7 @@ for ds in "${DATASETS[@]}"; do
     for mns in "${MAX_NUM_SEQS[@]}"; do
         for rate in "${REQUEST_RATES[@]}"; do
 
-            OUT="bench_qwen_${base}_mns${mns}_rate${rate}.json"
+            OUT="bench_qwen_${base}_mns${mns}_rate${rate}_thres${THRES}.json"
 
             echo "==============================="
             echo "Start vLLM serve → max-num-seqs=${mns}"
@@ -28,7 +29,7 @@ for ds in "${DATASETS[@]}"; do
             nohup vllm serve $MODEL \
                 --scheduling-policy priority \
                 --max-num-seqs "$mns" \
-                > "server_qwen_${base}_mns${mns}_rate${rate}.log" 2>&1 &
+                > "server_qwen_${base}_mns${mns}_rate${rate}_thres${THRES}.log" 2>&1 &
 
             SERVER_PID=$!
             echo "Server running (PID=$SERVER_PID), warming up..."
