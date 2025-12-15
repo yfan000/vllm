@@ -1,10 +1,10 @@
 #!/bin/bash
 
 MODEL="deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
-DATASETS=("qwen_longcot_1000_priority_original.jsonl")
+DATASETS=("qwen_alpaca_requests_1000_priority_original.jsonl")
 OUTLEN=12800
 NUM_PROMPTS=1000
-THRES=10000
+THRES=1300
 
 # Sweep spaces ↓ Modify freely
 REQUEST_RATES=("inf" "5" "10" "15" "20")
