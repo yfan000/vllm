@@ -1,14 +1,14 @@
 #!/bin/bash
 
 MODEL="deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
-DATASETS=("qwen_alpaca_requests_1000_priority_original.jsonl")
+DATASETS=("alpaca_requests_1000_priority.jsonl")
 OUTLEN=12800
 NUM_PROMPTS=1000
 THRES=1300
 
 # Sweep spaces ↓ Modify freely
 REQUEST_RATES=("inf" "5" "10" "15" "20")
-MAX_NUM_SEQS=("128" "256")
+MAX_NUM_SEQS=("256")
 
 # mkdir -p benchmark_results
 
