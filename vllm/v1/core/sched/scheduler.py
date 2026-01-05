@@ -300,6 +300,11 @@ class Scheduler(SchedulerInterface):
                         preempted_req.record_event(
                             EngineCoreEventType.PREEMPTED, scheduled_timestamp
                         )
+                    logger.info(
+                        "REQPREEMPT %s: arrival_time=%d",
+                        preempted_req.request_id,
+                        preempted_req.arrival_time,
+                    )
 
                     self.waiting.prepend_request(preempted_req)
                     preempted_reqs.append(preempted_req)
