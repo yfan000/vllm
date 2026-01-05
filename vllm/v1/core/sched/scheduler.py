@@ -319,6 +319,13 @@ class Scheduler(SchedulerInterface):
                         preempted_req.record_event(
                             EngineCoreEventType.PREEMPTED, scheduled_timestamp
                         )
+                    logger.info(
+                        "REQ %s: prompt_len=%d output_len=%d status=%s",
+                        preempted_req.request_id,
+                        preempted_req.prompt_length,
+                        preempted_req.output_length,
+                        preempted_req.status,
+                    )
 
                     # self.waiting.prepend_request(preempted_req)
                     preempted_req.output_token_len_before_preemption = preempted_req.num_output_tokens
@@ -595,6 +602,13 @@ class Scheduler(SchedulerInterface):
                             preempted_req.record_event(
                                 EngineCoreEventType.PREEMPTED, scheduled_timestamp
                             )
+                        logger.info(
+                            "REQ %s: prompt_len=%d output_len=%d status=%s",
+                            preempted_req.request_id,
+                            preempted_req.prompt_length,
+                            preempted_req.output_length,
+                            preempted_req.status,
+                        )
                         # change
                         # self.waiting.prepend_request(preempted_req)
                         preempted_req.output_token_len_before_preemption = preempted_req.num_output_tokens
@@ -651,6 +665,13 @@ class Scheduler(SchedulerInterface):
                             preempted_req.record_event(
                                 EngineCoreEventType.PREEMPTED, scheduled_timestamp
                             )
+                        logger.info(
+                            "REQ %s: prompt_len=%d output_len=%d status=%s",
+                            preempted_req.request_id,
+                            preempted_req.prompt_length,
+                            preempted_req.output_length,
+                            preempted_req.status,
+                        )
                         # change
                         # self.waiting.prepend_request(preempted_req)
                         preempted_req.output_token_len_before_preemption = preempted_req.num_output_tokens
