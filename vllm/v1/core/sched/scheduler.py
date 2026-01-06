@@ -64,6 +64,7 @@ class Scheduler(SchedulerInterface):
         self.log_stats = log_stats
         self.structured_output_manager = structured_output_manager
         self.is_encoder_decoder = vllm_config.model_config.is_encoder_decoder
+        self.iter = 0
 
         # include_finished_set controls whether a separate set of finished
         # request ids should be included in the EngineCoreOutputs returned
@@ -203,6 +204,13 @@ class Scheduler(SchedulerInterface):
 
         # For logging.
         scheduled_timestamp = time.monotonic()
+        self.iter += 1
+
+        logger.info(
+            "SCHEDULE ITER %s: scheduled_timestamp=%d",
+            self.iter,
+            scheduled_timestamp,
+        )
 
         # First, schedule the RUNNING requests.
         req_index = 0
@@ -564,6 +572,11 @@ class Scheduler(SchedulerInterface):
                     scheduled_new_reqs.append(request)
                 elif request.status == RequestStatus.PREEMPTED:
                     scheduled_resumed_reqs.append(request)
+                    logger.info(
+                        "RESUME %s: scheduled_timestamp=%d",
+                        request.request_id,
+                        scheduled_timestamp,
+                    )
                 else:
                     raise RuntimeError(f"Invalid request status: {request.status}")
 
